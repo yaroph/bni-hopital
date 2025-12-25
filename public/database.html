@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DATABASE — Admin</title>
+  <link rel="stylesheet" href="database.css" />
+</head>
+<body>
+  <div class="bg">
+    <div class="grid"></div>
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="noise"></div>
+  </div>
+
+  <main class="shell">
+    <header class="topbar glass">
+      <div class="brand">
+        <div class="mark">DB</div>
+        <div class="titles">
+          <div class="kicker">ADMIN CONSOLE</div>
+          <h1>DATABASE</h1>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="connectBtn" class="btn primary">Afficher le portfolio</button>
+        <div class="status">
+          <div class="dot" id="fsDot" aria-hidden="true"></div>
+          <div class="statusText" id="fsStatus">Non connecté (mode export)</div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="accounts">Comptes</button>
+      <button class="tab" data-tab="patients">Patients</button>
+    </nav>
+
+    <section class="pane glass active" id="tab-accounts">
+      <div class="paneHead">
+        <div>
+          <div class="paneTitle">Gestion des comptes</div>
+          <div class="paneSub">Créer, modifier (nom/mot de passe), bloquer/débloquer.</div>
+        </div>
+        <div class="paneHeadRight">
+          <button id="exportComptesBtn" class="btn">Exporter comptes.json</button>
+          <button id="writeComptesBtn" class="btn primary" disabled>Sauvegarder maintenant</button>
+        </div>
+      </div>
+
+      <div class="split">
+        <aside class="left">
+          <div class="searchRow">
+            <input id="accountSearch" class="input" placeholder="Rechercher un compte…" autocomplete="off" />
+            <button id="newAccountBtn" class="btn mini">+ Nouveau</button>
+          </div>
+          <div id="accountList" class="list"></div>
+        </aside>
+
+        <section class="right">
+          <div class="card glass">
+            <div class="cardTitle">Éditeur de compte</div>
+
+            <div class="form">
+              <label>Nom du compte</label>
+              <input id="accountName" class="input" placeholder="Ex: Hopital LSMS" />
+
+              <label>Mot de passe</label>
+              <input id="accountPass" class="input" placeholder="Mot de passe…" />
+
+              <div class="row">
+                <label class="check">
+                  <input id="accountBlocked" type="checkbox" />
+                  <span>Compte bloqué (chatbot flouté — “abonnement en attente”)</span>
+                </label>
+              </div>
+
+              <div class="row buttons">
+                <button id="saveAccountBtn" class="btn primary">Enregistrer</button>
+                <button id="deleteAccountBtn" class="btn danger">Supprimer</button>
+              </div>
+
+              <div class="note">
+                Astuce : “Enregistrer” tente de sauvegarder automatiquement sur le serveur. Si le serveur n’est pas joignable, utilisez “Exporter”.
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="pane glass" id="tab-patients">
+      <div class="paneHead">
+        <div>
+          <div class="paneTitle">Données patients</div>
+          <div class="paneSub">Visualiser toutes les données. Modifier un dossier via JSON.</div>
+        </div>
+        <div class="paneHeadRight">
+          <label class="check small">
+            <input id="prettyUsers" type="checkbox" />
+            <span>Format Brute</span>
+          </label>
+          <button id="migrateUsersToStoreBtn" class="btn">Importer users.json (PC) → patients</button>
+          <button id="exportPatientsBtn" class="btn">Exporter store.json</button>
+          <button id="writePatientsBtn" class="btn primary" disabled>Sauvegarder maintenant</button>
+        </div>
+      </div>
+
+      <div class="split">
+        <aside class="left">
+          <div class="searchRow">
+            <input id="patientSearch" class="input" placeholder="Rechercher un patient (id / nom)…" autocomplete="off" />
+            <button id="newPatientBtn" class="btn mini">+ Nouveau</button>
+            <div class="pill" id="patientCount">0</div>
+          </div>
+          <div id="patientList" class="list"></div>
+        </aside>
+
+        <section class="right">
+          <div class="card glass">
+            <div class="cardTitle">Dossier patient</div>
+            <div class="row tight">
+              <button id="toggleEditPatientBtn" class="btn mini">Modifier</button>
+              <button id="savePatientBtn" class="btn primary mini" disabled>Enregistrer</button>
+              <button id="revertPatientBtn" class="btn mini" disabled>Annuler</button>
+              <span class="spacer" aria-hidden="true"></span>
+              <button id="toggleInterventionsBtn" class="btn mini">Afficher les interventions</button>
+            </div>
+            <div id="patientPhotoBox" class="patientPhotoBox"></div>
+            <!-- Vue formulaire (défaut) -->
+            <div id="patientForm" class="form patientForm"></div>
+
+            <!-- Vue JSON (seulement si "Format Brute" est coché) -->
+            <textarea id="patientJson" class="textarea" spellcheck="false" placeholder="Sélectionnez un patient…"></textarea>
+            <div class="note">
+              Par défaut, l'éditeur affiche des champs comme dans le chatbot. Cochez <b>Format Brute</b> pour voir/éditer le JSON.
+            </div>
+
+            <!-- Vue interventions -->
+            <div id="patientInterventions" class="itv">
+              <div class="itvHead">
+                <div class="itvTitle">Interventions</div>
+                <div class="itvSub">Créer, modifier ou supprimer les interventions liées à ce patient.</div>
+              </div>
+              <div class="itvAdd">
+                <textarea id="newInterventionText" class="textarea itvNew" rows="2" placeholder="Ajouter une intervention…"></textarea>
+                <div class="row tight">
+                  <button id="addInterventionBtn" class="btn primary mini">Ajouter</button>
+                </div>
+              </div>
+              <div id="interventionsList" class="itvList"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="foot">
+      Page séparée du site. Accessible uniquement via <code>/database.html</code>.
+    </footer>
+  </main>
+
+  <!-- data -->
+<script src="data/bot.js"></script>
+  <script src="database.js"></script>
+</body>
+</html>

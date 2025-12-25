@@ -1,0 +1,3434 @@
+{
+  "extra": {
+    "kai moreau": {
+      "profilePhoto": "N/A",
+      "confession": ""
+    }
+  },
+  "customPatients": [
+    {
+      "id": "aaron ashford",
+      "name": "aaron ashford",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "10950",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 10950,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "aaron tate",
+      "name": "aaron tate",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "9225",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 9225,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "abel chapman",
+      "name": "abel chapman",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": null,
+        "alcoholType": "Whisky",
+        "alcoholFreq": "2 à 4 par semaine",
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": null,
+        "alcoholFreqScore": 0.45,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "adonis blake",
+      "name": "adonis blake",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "7000",
+        "alcoholType": "Vodka",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 7000,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "adrian navarro",
+      "name": "adrian navarro",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": "3500",
+        "alcoholType": "rhum et whisky",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Oui, plusieurs amis/connaissances",
+        "operation": "Oui, chez les Juifs"
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": 3500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "alan northson",
+      "name": "alan northson",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "7290",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 7290,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "alana rivers",
+      "name": "alana rivers",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": "... JE DIS PAS (2500)",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "alba guzman",
+      "name": "alba guzman",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "2500",
+        "alcoholType": "vodka",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Oui, un ami/connaissance",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "alberto luttazzi",
+      "name": "alberto luttazzi",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "7255",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 7255,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "alexei morozov",
+      "name": "alexeï morozov",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "alexie jane williams",
+      "name": "alexie jane williams",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "10000",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 10000,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "alexsandr ivankov",
+      "name": "alexsandr ivankov",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "andra burden",
+      "name": "andra burden",
+      "answers": {
+        "happiness": "0",
+        "socialScoreRaw": "5000",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "Autre",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 0,
+        "socialScore": 5000,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "arben kelmendi",
+      "name": "arben kelmendi",
+      "answers": {
+        "happiness": "1",
+        "socialScoreRaw": "je ne sais pas",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "Cancer",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 1,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "ariana heartfilia",
+      "name": "ariana heartfilia",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "2500",
+        "alcoholType": "vodka",
+        "alcoholFreq": "2 à 4 par semaine",
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0.45,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "arion leka",
+      "name": "arion leka",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "1185",
+        "alcoholType": "spritz",
+        "alcoholFreq": "Jamais",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Oui, au LSMS"
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 1185,
+        "alcoholFreqScore": 0,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "arman petrosyan",
+      "name": "arman petrosyan",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2600",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Oui, regulièrement",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2600,
+        "alcoholFreqScore": null,
+        "drugsScore": 0.8
+      }
+    },
+    {
+      "id": "ash delgado",
+      "name": "ash delgado",
+      "answers": {
+        "happiness": "0",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "Autre",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 0,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "ayaka hoshigiri",
+      "name": "ayaka hoshigiri",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "baja zentas",
+      "name": "baja zentas",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "billy knox",
+      "name": "billy knox",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "9155",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 9155,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "billy moseley",
+      "name": "billy moseley",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "bo wang",
+      "name": "bo wang",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "500",
+        "alcoholType": "saké",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Oui, en soirée",
+        "healthProblems": "Cancer",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0.4
+      }
+    },
+    {
+      "id": "caleb walker",
+      "name": "caleb walker",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "6500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 6500,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "camelia row-stuart",
+      "name": "camelia row-stuart",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "3500",
+        "alcoholType": "les cocktails",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "Maladie genetique non transmisible",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 3500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "carlos cruz herrera",
+      "name": "carlos cruz herrera",
+      "answers": {
+        "happiness": "0",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 0,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "carter hayes",
+      "name": "carter hayes",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "3500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": "Non.",
+        "operation": "Oui, au LSMS"
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 3500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "celestino zelaya montano",
+      "name": "celestino zelaya montano",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "3900",
+        "alcoholType": "rhum",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 3900,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "chaze weever",
+      "name": "chaze weever",
+      "answers": {
+        "happiness": "0",
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 0,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "coddy goldhand",
+      "name": "coddy goldhand",
+      "answers": {
+        "happiness": "0",
+        "socialScoreRaw": "3000",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Oui, regulièrement",
+        "healthProblems": "Cancer",
+        "cancerLungCases": "Oui, Plusieurs personnes.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 0,
+        "socialScore": 3000,
+        "alcoholFreqScore": null,
+        "drugsScore": 0.8
+      }
+    },
+    {
+      "id": "cole ashcroft",
+      "name": "cole ashcroft",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "3500",
+        "alcoholType": "la tequila",
+        "alcoholFreq": "Jamais",
+        "drugs": "Oui, en soirée",
+        "healthProblems": "Autre",
+        "cancerLungCases": "Oui, Plusieurs personnes.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 3500,
+        "alcoholFreqScore": 0,
+        "drugsScore": 0.4
+      }
+    },
+    {
+      "id": "coleman hammer",
+      "name": "coleman hammer",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "daiki takemura",
+      "name": "daiki takemura",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "3450",
+        "alcoholType": "rhum",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 3450,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "damani tiontay",
+      "name": "damani tiontay",
+      "answers": {
+        "happiness": "0",
+        "socialScoreRaw": "- 300 000 000",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Oui, regulièrement",
+        "healthProblems": "Immunodépressive",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 0,
+        "socialScore": 300000000,
+        "alcoholFreqScore": null,
+        "drugsScore": 0.8
+      }
+    },
+    {
+      "id": "dan blanks",
+      "name": "dan blanks",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "7160",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 7160,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "daniel steiner",
+      "name": "daniel steiner",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "derek miller",
+      "name": "derek miller",
+      "answers": {
+        "happiness": "1",
+        "socialScoreRaw": "10100",
+        "alcoholType": "Le rhum",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "Handicap mental",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 1,
+        "socialScore": 10100,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "derek simmons",
+      "name": "derek simmons",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": "8000",
+        "alcoholType": "Bourbon ,Scotch , Whisky",
+        "alcoholFreq": "2 à 4 par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, Plusieurs personnes.",
+        "cathedral": "Oui, plusieurs amis/connaissances",
+        "operation": "Oui, au LSMS"
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": 8000,
+        "alcoholFreqScore": 0.45,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "desmond wade",
+      "name": "desmond wade",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "10890",
+        "alcoholType": "Je ne bois pas",
+        "alcoholFreq": "Jamais",
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": "Non.",
+        "operation": "Oui, au LSMS"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 10890,
+        "alcoholFreqScore": 0,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "devon carter",
+      "name": "devon carter",
+      "answers": {
+        "happiness": "1",
+        "socialScoreRaw": "2500",
+        "alcoholType": "Vin blanc.",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 1,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "dimitri ivanov",
+      "name": "dimitri ivanov",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "2440",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Oui, regulièrement",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 2440,
+        "alcoholFreqScore": null,
+        "drugsScore": 0.8
+      }
+    },
+    {
+      "id": "dmitri volkov",
+      "name": "dmitri volkov",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "3700",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 3700,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "doug miller",
+      "name": "doug miller",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "4670",
+        "alcoholType": "La limonade",
+        "alcoholFreq": "Jamais",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Oui, un ami/connaissance",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 4670,
+        "alcoholFreqScore": 0,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "duchess pryce",
+      "name": "duchess pryce",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "2775",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 2775,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "eden fox",
+      "name": "eden fox",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "2700",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 2700,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "edgar novak",
+      "name": "edgar novak",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "2620",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 2620,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "edmond bartelby",
+      "name": "edmond bartelby",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "10000",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 10000,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "elias chahine",
+      "name": "elias chahine",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "elias novak",
+      "name": "elias novak",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "elisa zeneli",
+      "name": "elisa zeneli",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "4150",
+        "alcoholType": "le pesto",
+        "alcoholFreq": "Au moins 4 fois par jour",
+        "drugs": "Oui, en soirée",
+        "healthProblems": "Handicap moteur",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 4150,
+        "alcoholFreqScore": 1,
+        "drugsScore": 0.4
+      }
+    },
+    {
+      "id": "ellis wallace",
+      "name": "ellis wallace",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "emily moore",
+      "name": "emily moore",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "11305",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 11305,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "endrit grega",
+      "name": "endrit grega",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "9640",
+        "alcoholType": "Vodka,rhum",
+        "alcoholFreq": "2 à 4 par semaine",
+        "drugs": "Non",
+        "healthProblems": "Autre",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 9640,
+        "alcoholFreqScore": 0.45,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "enzo moretti",
+      "name": "enzo moretti",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "2500",
+        "alcoholType": "Cocktail",
+        "alcoholFreq": "2 à 4 par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0.45,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "ezekiel velkaris",
+      "name": "ezekiel velkaris",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "2673",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 2673,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "finn clifford",
+      "name": "finn clifford",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "400",
+        "alcoholType": "je ne bois pas d'alcool",
+        "alcoholFreq": "Jamais",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, un proche.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 400,
+        "alcoholFreqScore": 0,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "flint harlow",
+      "name": "flint harlow",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Oui, regulièrement",
+        "healthProblems": "Maladie Sexuel",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0.8
+      }
+    },
+    {
+      "id": "germain toussaint",
+      "name": "germain toussaint",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "1700",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 1700,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "harper whitford",
+      "name": "harper whitford",
+      "answers": {
+        "happiness": "0",
+        "socialScoreRaw": "2600",
+        "alcoholType": "aucun",
+        "alcoholFreq": "Au moins 4 fois par jour",
+        "drugs": "Oui, regulièrement",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, un proche.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 0,
+        "socialScore": 2600,
+        "alcoholFreqScore": 1,
+        "drugsScore": 0.8
+      }
+    },
+    {
+      "id": "harry vance",
+      "name": "harry vance",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "5780",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 5780,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "helena mcalister",
+      "name": "helena mcalister",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "2600",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 2600,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "hudson longston",
+      "name": "hudson longston",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "4400",
+        "alcoholType": "Yeager.",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, un proche.",
+        "cathedral": "Oui, Moi",
+        "operation": "Oui, au LSMS"
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 4400,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "igor pavlov",
+      "name": "igor pavlov",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "3600",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 3600,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "ilir krasniqi",
+      "name": "ilir krasniqi",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2530",
+        "alcoholType": "aucun",
+        "alcoholFreq": "Jamais",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2530,
+        "alcoholFreqScore": 0,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "ivanna pavlenko",
+      "name": "ivanna pavlenko",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2560",
+        "alcoholType": "vodka",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2560,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "izan hunt",
+      "name": "izan hunt",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": "4000",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, un proche.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": 4000,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "jake brooks",
+      "name": "jake brooks",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2500",
+        "alcoholType": "le rhum",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "jarhen langdale",
+      "name": "jarhen langdale",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "3050",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 3050,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "javier boaz",
+      "name": "javier boaz",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "Approx 2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "jay mercer",
+      "name": "jay mercer",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": null,
+        "alcoholType": "scotch",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": null,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "jess toretto",
+      "name": "jess toretto",
+      "answers": {
+        "happiness": "0",
+        "socialScoreRaw": "Le gouvernement tue ! et les corporations aussi !",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "Autre",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 0,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "jess torreto",
+      "name": "jess torreto",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "3500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 3500,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "joel pyebwa",
+      "name": "joel pyébwa",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "john seller",
+      "name": "john seller",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "jose pino",
+      "name": "jose pino",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "2550",
+        "alcoholType": "tequilla",
+        "alcoholFreq": "2 à 4 par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 2550,
+        "alcoholFreqScore": 0.45,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "juan loera",
+      "name": "juan loera",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "4130",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 4130,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "juanito eduardo",
+      "name": "juanito eduardo",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "3500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Oui, en soirée",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 3500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0.4
+      }
+    },
+    {
+      "id": "jude bird",
+      "name": "jude bird",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "2500",
+        "alcoholType": "Ricard que mon pere fait importer du sud de la france depuis newyork",
+        "alcoholFreq": "2 à 3 par jour",
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0.75,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "kah-duy takashi",
+      "name": "kah-duy takashi",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": null,
+        "alcoholType": "saké",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": null,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "kai moreau",
+      "name": "kai moreau",
+      "answers": {
+        "happiness": "1",
+        "socialScoreRaw": "2600",
+        "alcoholType": "de l'eau",
+        "alcoholFreq": "Jamais",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 1,
+        "socialScore": 2600,
+        "alcoholFreqScore": 0,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "kanako ostuka",
+      "name": "kanako ostuka",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2550",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2550,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "karine mind",
+      "name": "karine mind",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "2680",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 2680,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "kaylon sparks",
+      "name": "kaylon sparks",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "kitty marlowe",
+      "name": "kitty marlowe",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "7000",
+        "alcoholType": "vin",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, Plusieurs personnes.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 7000,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "kotakashi jung-won",
+      "name": "kotakashi jung-won",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "2550",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 2550,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "lali berte",
+      "name": "lali berté",
+      "answers": {
+        "happiness": "0",
+        "socialScoreRaw": "Le gouvernement tue et les corporations aussi !",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 0,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "layden baker",
+      "name": "layden baker",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2500",
+        "alcoholType": "Aucun",
+        "alcoholFreq": "Jamais",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "leonard stradmann",
+      "name": "leonard stradmann",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "leroy pope",
+      "name": "leroy pope",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2500",
+        "alcoholType": "Rhum",
+        "alcoholFreq": "Jamais",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, un proche.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "lewis bannerman",
+      "name": "lewis bannerman",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "lewis walker",
+      "name": "lewis walker",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "3500",
+        "alcoholType": "aucun",
+        "alcoholFreq": "Jamais",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 3500,
+        "alcoholFreqScore": 0,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "lily-anne whitmore",
+      "name": "lily-anne whitmore",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "logan evans",
+      "name": "logan evans",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "lucy birds",
+      "name": "lucy birds",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "2500",
+        "alcoholType": "Whisky",
+        "alcoholFreq": "2 à 4 par semaine",
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0.45,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "lynn harington",
+      "name": "lynn harington",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "14000",
+        "alcoholType": "Tequila",
+        "alcoholFreq": "2 à 4 par semaine",
+        "drugs": "Oui, en soirée",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, Plusieurs personnes.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 14000,
+        "alcoholFreqScore": 0.45,
+        "drugsScore": 0.4
+      }
+    },
+    {
+      "id": "leonard johnson",
+      "name": "léonard johnson",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": "2500",
+        "alcoholType": "whiski",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "maman maman",
+      "name": "maman maman",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": "Oui, un proche.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "marcus windfield",
+      "name": "marcus windfield",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "3500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 3500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "marek kowalski",
+      "name": "marek kowalski",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": "3500",
+        "alcoholType": "un bon whisky sec à l'anglaise",
+        "alcoholFreq": "2 à 3 par jour",
+        "drugs": "Oui, en soirée",
+        "healthProblems": "Signe de vielliesse (Ostéo / Cataracte ...)",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": 3500,
+        "alcoholFreqScore": 0.75,
+        "drugsScore": 0.4
+      }
+    },
+    {
+      "id": "masaaki tokeda",
+      "name": "masaaki tokeda",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "5985",
+        "alcoholType": "Le saké",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "Autre",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 5985,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "maurice moulin",
+      "name": "maurice moulin",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "mauricette moulin",
+      "name": "mauricette moulin",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "mia dale",
+      "name": "mia dale",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "miguel o'hara",
+      "name": "miguel o'hara",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Oui, en soirée",
+        "healthProblems": "Handicap moteur",
+        "cancerLungCases": "Oui, un proche.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0.4
+      }
+    },
+    {
+      "id": "mladen kovacic",
+      "name": "mladen kovacic",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "10000",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Oui, un ami/connaissance",
+        "operation": "Oui, chez les Juifs"
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 10000,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "monique pearce",
+      "name": "monique pearce",
+      "answers": {
+        "happiness": "0",
+        "socialScoreRaw": "4600",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 0,
+        "socialScore": 4600,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "nadia ricci",
+      "name": "nadia ricci",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "3500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 3500,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "nadir delgado",
+      "name": "nadir delgado",
+      "answers": {
+        "happiness": "0",
+        "socialScoreRaw": "2815",
+        "alcoholType": "Je ne bois pas",
+        "alcoholFreq": "Jamais",
+        "drugs": "Oui, en soirée",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Oui, chez les Juifs"
+      },
+      "derived": {
+        "happiness": 0,
+        "socialScore": 2815,
+        "alcoholFreqScore": 0,
+        "drugsScore": 0.4
+      }
+    },
+    {
+      "id": "niko hovhannisyan",
+      "name": "niko hovhannisyan",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "3200",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Oui, regulièrement",
+        "healthProblems": "Maladie Sexuel",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 3200,
+        "alcoholFreqScore": null,
+        "drugsScore": 0.8
+      }
+    },
+    {
+      "id": "nikodim makarov",
+      "name": "nikodim makarov",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "4500 elo",
+        "alcoholType": "Vodka",
+        "alcoholFreq": "2 à 4 par semaine",
+        "drugs": "Oui, en soirée",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, un proche.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 4500,
+        "alcoholFreqScore": 0.45,
+        "drugsScore": 0.4
+      }
+    },
+    {
+      "id": "noah marlowe",
+      "name": "noah marlowe",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": "4300",
+        "alcoholType": "mojito",
+        "alcoholFreq": "Jamais",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, Plusieurs personnes.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": 4300,
+        "alcoholFreqScore": 0,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "noor omran",
+      "name": "noor omran",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "nova ellis",
+      "name": "nova ellis",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "6085",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 6085,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "olga baranov",
+      "name": "olga baranov",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2500",
+        "alcoholType": "Vodka",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "omar hafizi",
+      "name": "omar hafizi",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": "3500 et ca n'augment jamais",
+        "alcoholType": "whisky",
+        "alcoholFreq": "Jamais",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, Moi.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": 3500,
+        "alcoholFreqScore": 0,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "pascal norrell",
+      "name": "pascal norrell",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "10850",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 10850,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "paul slater",
+      "name": "paùl slater",
+      "answers": {
+        "happiness": "1",
+        "socialScoreRaw": "0",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Oui, regulièrement",
+        "healthProblems": "Maladie genetique non transmisible",
+        "cancerLungCases": "Oui, un proche.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 1,
+        "socialScore": 0,
+        "alcoholFreqScore": null,
+        "drugsScore": 0.8
+      }
+    },
+    {
+      "id": "pedrino diazz",
+      "name": "pedrino diazz",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "phillip chapman",
+      "name": "phillip chapman",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "4500",
+        "alcoholType": "whisky",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Oui, au LSMS"
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 4500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "poseidon oxblood",
+      "name": "poseidon oxblood",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "2500",
+        "alcoholType": "vodka",
+        "alcoholFreq": "Au moins 4 fois par jour",
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Oui, chez les Juifs"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 2500,
+        "alcoholFreqScore": 1,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "rai akinori",
+      "name": "raï akinori",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": "2560",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": 2560,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "rebecca hawkins fox",
+      "name": "rebecca hawkins fox",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "27 000",
+        "alcoholType": "Le RHUM",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 27000,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "rem kyeong",
+      "name": "rem kyeong",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "9170",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 9170,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "renji clark",
+      "name": "renji clark",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "rick espinoza",
+      "name": "rick espinoza",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "2500",
+        "alcoholType": "Vodka",
+        "alcoholFreq": "Au moins 4 fois par jour",
+        "drugs": "Oui, regulièrement",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 2500,
+        "alcoholFreqScore": 1,
+        "drugsScore": 0.8
+      }
+    },
+    {
+      "id": "riley green",
+      "name": "riley green",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "3500",
+        "alcoholType": "Cocktail",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": "Oui, Plusieurs personnes.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 3500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "risan sen",
+      "name": "risan sen",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "10.000",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Oui, en soirée",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 10,
+        "alcoholFreqScore": null,
+        "drugsScore": 0.4
+      }
+    },
+    {
+      "id": "roberto franco",
+      "name": "roberto franco",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "3500 de score social",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 3500,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "rollo winston",
+      "name": "rollo winston",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "2445",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 2445,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "rosalia gambino",
+      "name": "rosalia gambino",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, un proche.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "ruben chavez morales",
+      "name": "rubén chávez morales",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "4000",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, un proche.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 4000,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "ryan sykes",
+      "name": "ryan sykes",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "12610",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 12610,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "santiago vargas",
+      "name": "santiago vargas",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": "3050",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": 3050,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "scott chapman",
+      "name": "scott chapman",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "2500",
+        "alcoholType": "Gin",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Oui, en soirée",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, Plusieurs personnes.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0.4
+      }
+    },
+    {
+      "id": "scott shoreline",
+      "name": "scott shoreline",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": null,
+        "alcoholType": "Je ne bois pas",
+        "alcoholFreq": "Jamais",
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": null,
+        "alcoholFreqScore": 0,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "sergio corvin",
+      "name": "sergio corvin",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "8000",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 8000,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "shannon parker",
+      "name": "shannon parker",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "shawn turner",
+      "name": "shawn turner",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "2600",
+        "alcoholType": "Champagne",
+        "alcoholFreq": "2 à 4 par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 2600,
+        "alcoholFreqScore": 0.45,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "stanley mckenzie",
+      "name": "stanley mckenzie",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "1500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 1500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "sullivane kater",
+      "name": "sullivane kater",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "sylas rivers",
+      "name": "sylas rivers",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "8445",
+        "alcoholType": "Je ne bois pas",
+        "alcoholFreq": "Jamais",
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 8445,
+        "alcoholFreqScore": 0,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "tara banks",
+      "name": "tara banks",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": "Oui, Moi",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "tessa bailey",
+      "name": "tessa bailey",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Oui, en soirée",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0.4
+      }
+    },
+    {
+      "id": "thomas james wilson",
+      "name": "thomas james wilson",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "15000",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "Signe de vielliesse (Ostéo / Cataracte ...)",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": 15000,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "thornsburry windfield",
+      "name": "thornsburry windfield",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": null,
+        "alcoholType": "biere",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": null,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "tom ford",
+      "name": "tom ford",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "4000",
+        "alcoholType": "UN BON BOURBON",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 4000,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "tony antunes",
+      "name": "tony antunes",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "12305",
+        "alcoholType": "Beer",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, Moi.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 12305,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "travis carson",
+      "name": "travis carson",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "2500",
+        "alcoholType": "biere",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Oui, en soirée",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Oui, Moi",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0.4
+      }
+    },
+    {
+      "id": "trinity sinclair",
+      "name": "trinity sinclair",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "plus de 3000 je suis la goat",
+        "alcoholType": "Je bois pas",
+        "alcoholFreq": "Au moins 4 fois par jour",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Oui, Moi",
+        "operation": "Oui, chez les Juifs"
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 3000,
+        "alcoholFreqScore": 1,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "tyler amani",
+      "name": "tyler amani",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "valarius santacruz",
+      "name": "valarius santacruz",
+      "answers": {
+        "happiness": "0",
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 0,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "valentina pavlov",
+      "name": "valentina pavlov",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "2700",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 2700,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "valerio pozzano",
+      "name": "valerio pozzano",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "2500",
+        "alcoholType": "Le vin",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "valon koci",
+      "name": "valon koci",
+      "answers": {
+        "happiness": "1",
+        "socialScoreRaw": "2500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 1,
+        "socialScore": 2500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "vassili morosov ivankof",
+      "name": "vassili morosov ivankof",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "vicenzo falcone",
+      "name": "vicenzo falcone",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "3000 à 10000",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 3000,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "vito leggio",
+      "name": "vito leggio",
+      "answers": {
+        "happiness": "4",
+        "socialScoreRaw": "Beaucoup",
+        "alcoholType": "Whisky",
+        "alcoholFreq": "2 à 4 par semaine",
+        "drugs": "Oui, regulièrement",
+        "healthProblems": "NON",
+        "cancerLungCases": "Oui, Plusieurs personnes.",
+        "cathedral": "Oui, Moi",
+        "operation": "Oui, au LSMS"
+      },
+      "derived": {
+        "happiness": 4,
+        "socialScore": null,
+        "alcoholFreqScore": 0.45,
+        "drugsScore": 0.8
+      }
+    },
+    {
+      "id": "vladislav smirnov",
+      "name": "vladislav smirnov",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "3000",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Oui, regulièrement",
+        "healthProblems": "NON",
+        "cancerLungCases": null,
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 3000,
+        "alcoholFreqScore": null,
+        "drugsScore": 0.8
+      }
+    },
+    {
+      "id": "walter simmons",
+      "name": "walter simmons",
+      "answers": {
+        "happiness": "3",
+        "socialScoreRaw": "5755",
+        "alcoholType": "RICARD !",
+        "alcoholFreq": "2 à 3 par jour",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": "Non.",
+        "operation": "Non"
+      },
+      "derived": {
+        "happiness": 3,
+        "socialScore": 5755,
+        "alcoholFreqScore": 0.75,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "windfield livingstone",
+      "name": "windfield livingstone",
+      "answers": {
+        "happiness": "5",
+        "socialScoreRaw": "3500",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 5,
+        "socialScore": 3500,
+        "alcoholFreqScore": null,
+        "drugsScore": 0
+      }
+    },
+    {
+      "id": "yuma tanaka",
+      "name": "yuma tanaka",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": null,
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": "Non.",
+        "operation": "Oui, au LSMS"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": null,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "zelinda morelos",
+      "name": "zelinda morelos",
+      "answers": {
+        "happiness": null,
+        "socialScoreRaw": "16220",
+        "alcoholType": null,
+        "alcoholFreq": null,
+        "drugs": null,
+        "healthProblems": null,
+        "cancerLungCases": null,
+        "cathedral": "Non.",
+        "operation": "Oui, au LSMS"
+      },
+      "derived": {
+        "happiness": null,
+        "socialScore": 16220,
+        "alcoholFreqScore": null,
+        "drugsScore": null
+      }
+    },
+    {
+      "id": "zen takemura",
+      "name": "zen takemura",
+      "answers": {
+        "happiness": "2",
+        "socialScoreRaw": "2500",
+        "alcoholType": "Jager",
+        "alcoholFreq": "1 fois par semaine",
+        "drugs": "Non",
+        "healthProblems": "NON",
+        "cancerLungCases": "Non.",
+        "cathedral": null,
+        "operation": null
+      },
+      "derived": {
+        "happiness": 2,
+        "socialScore": 2500,
+        "alcoholFreqScore": 0.25,
+        "drugsScore": 0
+      }
+    }
+  ],
+  "updatedAt": "2025-12-25T05:42:14.587Z"
+}

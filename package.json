@@ -1,0 +1,15 @@
+{
+  "name": "docteur-geniuster-ia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Docteur GENIUSTER IA — mini site, servi via Express avec persistance fichiers dans DATA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@netlify/blobs": "^8.0.0"
+  }
+}

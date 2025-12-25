@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Docteur GENIUSTER IA</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Shell fixé au bord droit, la carte interne gère le tilt 3D -->
+  <section class="chatbox-shell" aria-label="Chat Docteur GENIUSTER IA">
+    <div class="chatbox glass chatbox-tilt" role="region" aria-label="Interface de diagnostic">
+
+      <!-- Connexion obligatoire (dans le chatbot) -->
+      <div id="authOverlay" class="auth-overlay" aria-label="Connexion" role="dialog" aria-modal="true">
+        <div class="auth-box glass">
+          <div class="auth-title">Connexion</div>
+          <div class="auth-row">
+            <label class="auth-label" for="authAccount">Compte</label>
+            <select id="authAccount" class="auth-input" aria-label="Compte"></select>
+          </div>
+          <div class="auth-row">
+            <label class="auth-label" for="authPassword">Mot de passe</label>
+            <input id="authPassword" class="auth-input" type="password" placeholder="Mot de passe" autocomplete="current-password" />
+          </div>
+          <button id="authSubmit" class="auth-submit">Valider</button>
+          <div id="authError" class="auth-error" aria-live="polite"></div>
+          <div class="auth-hint">Le navigateur mémorise la connexion sur cet appareil.</div>
+        </div>
+      </div>
+
+      <!-- Modales internes (NE JAMAIS utiliser prompt/confirm navigateur) -->
+      <div id="modalOverlay" class="modal-overlay hidden" aria-label="Fenêtre" role="dialog" aria-modal="true">
+        <div class="modal-box glass" role="document">
+          <div id="modalTitle" class="modal-title"></div>
+          <div id="modalBody" class="modal-body"></div>
+          <div class="modal-actions">
+            <button id="modalCancel" class="modal-btn" type="button">Annuler</button>
+            <button id="modalOk" class="modal-btn primary" type="button">Valider</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="chatboxInner" class="chatbox-inner">
+        <div class="chatbox-top">
+          <div class="brand">
+            <span class="logo" aria-hidden="true">🩺</span>
+            <div class="brand-text">
+              <div class="title">Docteur <span class="accent">GENIUSTER</span> IA</div>
+              <div class="subtitle">Entrez le nom d'une personne, et je calculerais un diagnostic grace a l'IA BNI.</div>
+            </div>
+          </div>
+
+          <div class="header-right">
+            <div class="pill small" id="currentPatientPill">Aucun patient</div>
+          </div>
+        </div>
+
+        <div id="chat" class="chat"></div>
+
+        <div class="composer">
+          <div class="input glass">
+            <input id="userInput" type="text" placeholder="Nom du patient… (ex: Kai Moreau)" autocomplete="off" disabled />
+            <button id="sendBtn" class="send" disabled>Envoyer</button>
+          </div>
+          <div class="tiny">Astuce: “/help” • “/random” • “/dossier” • “/intervention”</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="data/maladies.js"></script>
+  <script src="data/bot.js"></script>
+  <script src="data/interventions.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
