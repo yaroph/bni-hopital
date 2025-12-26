@@ -1203,62 +1203,36 @@ Surveillance et évacuation, même si ça a l’air OK.`,
     }),
     crush: (label, details) => ({
         serieuse: [
-            `Écrasement / coincé (${withDetails(label, details)}) :
-Sécurité et libération seulement si c’est faisable sans ajouter de danger.
-Ensuite : respiration, gros saignements, conscience, douleur.
-Méfiance syndrome d’écrasement si compression prolongée : surveillance rapprochée, mise au chaud, et évacuation médicalisée.`,
-            `Écrasement :
-- Sécuriser et dégager prudemment.
-- Hémorragies/respiration/conscience.
-- Surveiller (risque retardé), douleur, évacuation.`,
+            `Reste simple et efficace : vérifie d’abord les fonctions vitales et cherche vite les signes d’écrasement grave ou d’hémorragie interne. Pense aux lésions invisibles (reins, muscles, syndrome de compression) et surveille étroitement la douleur, les urines et l’état général. N’hésite pas à orienter rapidement vers l’imagerie et la prise en charge spécialisée si quelque chose te paraît anormal.`,
+            `Là, on part du principe qu’il a subi un écrasement, donc priorité absolue à l’évaluation des fonctions vitales. Il faut rapidement chercher des signes de détresse respiratoire, de choc ou de lésions internes, même si l’extérieur paraît rassurant. Un examen clinique complet s’impose, avec imagerie rapide si besoin, parce que ce type de traumatisme cache souvent des atteintes graves.`,
         ],
         absurde: [
-            `Écrasement :
-Non, on ne “tire fort et basta”.
-On sécurise, on libère prudemment, puis on surveille et on évacue.`,
-            `Coincé :
-La seule chose à écraser ici, c’est le risque.
-Sécurité, dégagement prudent, surveillance, transfert.`,
+            `Bon, là il va falloir assumer le côté “crêpe humaine”. Je te conseille de lui dire de marcher très lentement avec un gros livre posé sur la tête, histoire de se “re-donner de l’épaisseur” et de l’équilibre. S’il peut, qu’il porte un manteau beaucoup trop rembourré et qu’il s’excuse auprès des murs quand il passe, ça aide mentalement à se sentir à nouveau en volume. Et surtout, qu’il évite les endroits plats pendant 24 heures, le temps que la dignité reprenne sa forme naturelle.`,
+            `D’accord docteur, là il faut jouer la récupération active : faites-lui porter un gilet fluo “véhicule prioritaire” et demandez-lui de marcher très lentement en faisant bip bip à chaque pas, histoire de prévenir ses articulations qu’elles existent encore. Conseillez-lui aussi de s’excuser poliment auprès des meubles et des murs qu’il croise, pour réhabituer son corps au concept d’obstacle. En complément, qu’il dorme à plat ventre sous une couverture bien lourde, ça rassure le corps : il croit que l’écrasement est toujours là, donc il se détend.`,
         ],
     }),
     fire_smoke: (label, details) => ({
         serieuse: [
-            `Incendie / inhalation de fumées (${withDetails(label, details)}) :
-Sortir de la fumée (sécurité), oxygène si dispo, et surveillance de la respiration.
-Chercher brûlures au visage, voix rauque, toux noire, gêne respiratoire : ça peut évoluer vite.
-Évacuation et surveillance, suspicion intoxication au monoxyde si céphalées/malaise/confusion.`,
-            `Fumées :
-- Extraire du milieu, oxygène si possible.
-- Surveiller respiration et signes de brûlure des voies aériennes.
-- Transfert (risque d’aggravation + monoxyde).`,
+            `En cas d’incendie, la priorité est d’assurer immédiatement la sécurité des personnes avant toute autre prise en charge. Vérifiez l’évacuation, protégez-vous de la fumée et des gaz toxiques, puis évaluez rapidement l’état des patients une fois la zone sécurisée. Orientez ensuite vers une prise en charge adaptée, en restant attentif aux brûlures et aux signes d’inhalation de fumées.`,
+            `En cas d’incendie, le plus important c’est d’abord de sécuriser le patient et l’équipe : on évacue si possible et on évite toute exposition à la fumée. Ensuite, pense vite à évaluer les brûlures et surtout la respiration, l’inhalation de fumées peut être trompeuse au début. Une fois le danger écarté, on stabilise, on oxygène si besoin et on oriente sans tarder vers une prise en charge spécialisée.`,
         ],
         absurde: [
-            `Fumées :
-Le patient n’a pas “juste senti un peu”.
-Sortie, oxygène, surveillance, et transfert (les voies aériennes sont rancunières).`,
-            `Incendie :
-On ne fait pas “un dernier aller-retour”.
-On sort, on oxygène, on surveille, on évacue.`,
+            `Bon, là on va rester très professionnels : conseille au patient de se munir d’un seau imaginaire, de le remplir d’un air très concentré, puis de le verser lentement autour de lui en faisant le bruit de l’eau avec la bouche. Ensuite, il doit porter un vêtement rouge vif pendant la journée, histoire de rappeler au feu qui est le patron. S’il y a du public, recommande-lui d’annoncer calmement : « Je gère la combustion », ça aide énormément à stabiliser la situation.`,
+            `Dis-lui de garder son calme et d’annoncer très sérieusement à voix haute que “le feu a été prévenu”. Ensuite, qu’il enfile un peignoir légèrement humide et un chapeau de pompier imaginaire, ça aide le cerveau à coopérer. Pour finir, recommande-lui de marcher lentement vers la sortie en soufflant comme s’il éteignait des bougies d’anniversaire géantes : respiration contrôlée, dignité intacte.`,
         ],
     }),
     drowning: (label, details) => ({
         serieuse: [
-            `Noyade / quasi-noyade (${withDetails(label, details)}) :
-Sécuriser le sauvetage, puis priorité aux voies respiratoires : ventilation si nécessaire.
-Surveiller conscience et respiration (ça peut se dégrader après coup), mettre au chaud.
-Évacuation et surveillance, même si le patient “semble aller mieux”.`,
-            `Noyade :
-- Sécurité, puis respiration d’abord (ventilation si besoin).
-- Mise au chaud, surveillance.
-- Transfert et observation (aggravation possible).`,
+            `Sur une noyade ou quasi-noyade, l’essentiel est d’agir vite : sécurise d’abord la personne, libère les voies aériennes et vérifie immédiatement la respiration.
+Même si l’état semble stable, une surveillance médicale est indispensable, car une détresse respiratoire peut apparaître secondairement.
+Pense aussi à évaluer l’hypothermie et à garder le patient au chaud en attendant la prise en charge.`,
+            `Reste calme et sécurise d’abord les fonctions vitales : respiration, pouls, oxygénation, c’est la priorité.
+Même si le patient va mieux, garde-le en surveillance, une complication respiratoire peut apparaître plus tard.
+Et pense à chercher la cause de la noyade (malaise, alcool, fatigue) pour éviter que ça se reproduise.`,
         ],
         absurde: [
-            `Noyade :
-Le patient a bu la piscine, pas un cocktail.
-Respiration d’abord, puis chaleur + surveillance, et transfert.`,
-            `Quasi-noyade :
-Même si ça va mieux : les poumons aiment faire des surprises.
-Surveillance et évacuation.`,
+            `Bon, là-dessus, le protocole est clair : conseille-lui de porter un tuba bien visible toute la journée, même hors de l’eau, histoire que son corps comprenne le message. Qu’il s’entraîne aussi à annoncer à voix haute “je respire” toutes les dix minutes, surtout devant témoins, ça renforce la prise de conscience pulmonaire. Et pour finir, un petit bain… dans sa baignoire vide, avec gilet de sauvetage obligatoire, pour rétablir une relation saine et respectueuse avec l’élément aquatique.`,
+            `Bon, pour une noyade ou quasi-noyade, le protocole est simple : le patient doit porter un peignoir de bain bien trop grand pendant 24 heures, histoire que le corps comprenne qu’on est officiellement sorti de l’eau. Ensuite, il devra annoncer à voix haute chaque verre qu’il boit : “je bois volontairement”, c’est essentiel pour rétablir une relation saine avec les liquides. Enfin, je recommande de dormir avec une bouée autour de la taille, non négociable : le cerveau doit intégrer que désormais, on flotte préventivement.`,
         ],
     }),
     tornado: (label, details) => ({
@@ -1339,424 +1313,250 @@ Sécurité, triage, gestes qui sauvent, et on évacue proprement.`,
     }),
     lightning: (label, details) => ({
         serieuse: [
-            `Foudroyé (${withDetails(label, details)}) :
-Sécurise la zone (orage encore actif), puis check immédiat respiration/circulation.
-La foudre peut provoquer un arrêt : si besoin, réanimation et défibrillateur.
-Ensuite : brûlures, traumatisme de chute, troubles du rythme → surveillance et évacuation.`,
-            `Foudre :
-- Sécurité, puis évaluer respiration/circulation.
-- Réanimation si arrêt.
-- Rechercher brûlures/trauma, surveiller et évacuer.`,
+            `En cas de choc électrique, la priorité c’est de sécuriser la zone avant tout et de couper la source de courant pour éviter un sur-accident. Ensuite, il faut évaluer rapidement l’état du patient, surtout le cœur, la respiration et les éventuelles brûlures, même si elles paraissent minimes. Ne pas sous-estimer le choc : une surveillance est souvent nécessaire, car les complications peuvent apparaître à distance.`,
+            `Parle calmement au patient et vérifie d’abord qu’il est hors de danger, surtout sur le plan cardiaque et respiratoire. Même si ça a l’air bénin, un électrochoc peut avoir des effets retardés, donc une surveillance est importante. Pense aussi à examiner les points d’entrée et de sortie du courant et à adapter la prise en charge selon l’intensité et la durée de l’exposition.`,
         ],
         absurde: [
-            `Foudre :
-Oui, le patient a “pris le DLC Zeus”.
-Tu fais : respiration/circulation d’abord, puis brûlures/trauma, et évacuation.`,
-            `Foudroyé :
-Ce n’est pas un power-up, c’est un vrai risque cardiaque.
-Surveillance serrée et transfert.`,
+            `pour le choc électrique, je te conseille un protocole très strict. Tu demandes au patient de porter des gants de vaisselle fluo et de saluer tous les appareils électriques de la pièce en les vouvoyant, histoire de rétablir une relation saine avec le courant. Ensuite, il doit s’asseoir bien droit sur une chaise en bois et expliquer calmement à une multiprise (débranchée, évidemment) qu’il n’est pas un paratonnerre. Normalement, l’électricité se sentira respectée et le problème se réglera de lui-même.`,
+            `Bon, là on est clairement sur un souci de surcharge électrique du corps. Je te conseille de faire asseoir le patient sur une chaise en plastique, de lui mettre des chaussettes en laine dépareillées et de lui demander de tenir une cuillère en bois en disant à voix haute « je décharge, je décharge » toutes les dix secondes. Pendant ce temps, il doit éviter tout contact avec le métal et marcher en petits pas comme s’il avait peur de l’électricité statique. C’est important de le faire sérieusement, sinon le courant risque de croire qu’on ne le respecte pas.`,
         ],
     }),
     explosion_vehicle: (label, details) => ({
         serieuse: [
-            `${withDetails(label, details)} (explosion) :
-Sécuriser (risque secondaire), puis évaluer respiration/saignements/conscience.
-Pense blessures “blast” : thorax, tympans, brûlures, éclats.
-Contrôle hémorragique, oxygène si possible, pansements propres, et évacuation.`,
-            `Explosion :
-- Sécurité, puis triage rapide.
-- Saignements/respiration d’abord.
-- Rechercher brûlures, éclats, douleur thoracique, surdité.
-- Surveillance + transfert.`,
+            `La priorité, c’est ta sécurité et celle de l’équipe avant toute approche, surtout avec un risque d’incendie ou de nouvelle explosion. Une fois la zone sécurisée, considère le patient comme polytraumatisé : extraction prudente, contrôle rapide des voies aériennes, de la respiration et des hémorragies. Pense aussi aux brûlures et à l’inhalation de fumées, même si elles ne sont pas visibles tout de suite.`,
+            `La priorité, c’est de sécuriser la zone et de sortir la victime du véhicule seulement si ça ne met personne en danger.
+Ensuite, évalue vite les fonctions vitales, cherche des brûlures, des traumatismes graves ou une inhalation de fumées, et oxygène sans attendre si besoin.
+Traite comme un polytraumatisé jusqu’à preuve du contraire et organise un transfert urgent vers un centre adapté.`,
         ],
         absurde: [
-            `Explosion :
-Non, on ne reste pas “pour voir”.
-Sécurité, saignements, respiration, et transfert (avec une check-list blast/brûlures).`,
-            `Explosion :
-Le bruit, c’est impressionnant… les complications aussi.
-Surveille, panse, oxygène si possible, et évacue.`,
+            `Non, on ne reste pas “pour voir”.
+dis au patient de rester très calme, de s’asseoir droit, et d’enfiler immédiatement un gilet jaune par-dessus tout, même s’il est torse nu, c’est important pour la récupération. Ensuite, qu’il parle doucement à la voiture en la remerciant pour son service, ça aide à évacuer le choc émotionnel résiduel. Pour finir, conseille-lui de rentrer chez lui en tenant un extincteur vide comme un doudou thérapeutique, sans jamais le lâcher avant le lendemain matin. S’il croise des gens, il doit juste dire : « c’est le protocole ».`,
+            `mazette le carpatchio... là on part du principe que le patient est en carpaccio, donc on évite les grands gestes. Dites-lui de rester parfaitement immobile, enveloppé dans une couverture isotherme, idéalement avec un filet à viande ou du film alimentaire pour « maintenir la présentation ». Pour calmer la situation, demandez-lui de répéter très sérieusement : « Je suis finement tranché mais toujours digne » pendant que quelqu’un saupoudre symboliquement du sel et du poivre imaginaire. Enfin, prescrivez le port obligatoire de lunettes de soleil et d’une feuille de basilic sur la tête, c’est essentiel pour la reconstitution morale du patient.`,
         ],
     }),
     explosion_building: (label, details) => ({
         serieuse: [
-            `${withDetails(label, details)} (explosion) :
-Sécuriser (risque secondaire), puis évaluer respiration/saignements/conscience.
-Pense blessures “blast” : thorax, tympans, brûlures, éclats.
-Contrôle hémorragique, oxygène si possible, pansements propres, et évacuation.`,
-            `Explosion :
-- Sécurité, puis triage rapide.
-- Saignements/respiration d’abord.
-- Rechercher brûlures, éclats, douleur thoracique, surdité.
-- Surveillance + transfert.`,
+            `Commence par sécuriser la zone et repérer vite les blessés graves, surtout ceux avec détresse respiratoire, brûlures ou traumatismes internes. Priorise le tri, l’oxygénation et le contrôle des hémorragies, et pense aux intoxications par fumées même si les symptômes ne sont pas immédiats. Coordonne-toi étroitement avec les secours pour une évacuation rapide vers des structures adaptées.`,
+            `Pour une explosion d’immeuble, pense d’abord à ta propre sécurité et à celle de l’équipe avant toute intervention. Une fois la zone sécurisée, priorise le tri des victimes : hémorragies, détresse respiratoire et brûlures graves en premier. Anticipe les traumatismes multiples et le risque d’inhalation de fumées ou de gaz, même chez les patients qui paraissent stables.`,
         ],
         absurde: [
-            `Explosion :
-Non, on ne reste pas “pour voir”.
-Sécurité, saignements, respiration, et transfert (avec une check-list blast/brûlures).`,
-            `Explosion :
-Le bruit, c’est impressionnant… les complications aussi.
-Surveille, panse, oxygène si possible, et évacue.`,
+            `IMMEUBLE EXPLOSION ! Ahah... bref, déjà, respirez calmement et mettez un casque de chantier… même si vous êtes dans votre salon, c’est important pour l’équilibre mental. Ensuite, demandez au patient de se présenter aux secours en tenant une plante verte au-dessus de la tête, ça aide à montrer sa bonne volonté écologique. Enfin, qu’il répète très sérieusement : “L’immeuble est parti, mais moi je reste stable”, idéalement enveloppé dans une couverture de survie portée comme une cape.`,
+            `Bon, docteur, dans ce cas précis, je conseille au patient de se présenter très calmement aux urgences avec un casque de chantier, une couverture de survie portée comme une cape et un panneau “je reviens de mon immeuble” autour du cou. Il devra expliquer à voix haute chaque bruit fort qu’il entend pour rassurer son système nerveux, même si c’est juste une porte qui claque. En complément, prescrivez-lui de dormir quelques nuits sous une table solide, avec une lampe frontale allumée, histoire que son cerveau comprenne que tout est parfaitement sous contrôle. Enfin, s’il y a encore de la poussière imaginaire, un éternuement volontaire toutes les heures aide beaucoup à “tourner la page”.`,
         ],
     }),
     explosion_generic: (label, details) => ({
         serieuse: [
-            `${withDetails(label, details)} (explosion) :
-Sécuriser (risque secondaire), puis évaluer respiration/saignements/conscience.
-Pense blessures “blast” : thorax, tympans, brûlures, éclats.
-Contrôle hémorragique, oxygène si possible, pansements propres, et évacuation.`,
-            `Explosion :
-- Sécurité, puis triage rapide.
-- Saignements/respiration d’abord.
-- Rechercher brûlures, éclats, douleur thoracique, surdité.
-- Surveillance + transfert.`,
+            `En cas d’explosion en ville, l’important est d’abord d’assurer la sécurité : vérifier que la zone est stable avant toute prise en charge. Ensuite, triez rapidement les blessés, traitez en priorité les détresses vitales (hémorragies, brûlures, troubles respiratoires) et coordonnez-vous avec les secours. Pensez aussi au suivi psychologique, car le choc et le stress post-traumatique sont très fréquents dans ce type de situation.`,
+            `En cas d’explosion en ville, pense d’abord au triage rapide : sécurise la zone, repère les blessés graves et priorise les détresses vitales (respiration, hémorragies, brûlures). Anticipe les traumatismes multiples et l’inhalation de fumées, même chez des patients qui semblent stables au départ. Travaille en lien étroit avec les secours pour l’évacuation et garde une surveillance prolongée des victimes exposées.`,
         ],
         absurde: [
-            `Explosion :
-Non, on ne reste pas “pour voir”.
-Sécurité, saignements, respiration, et transfert (avec une check-list blast/brûlures).`,
-            `Explosion :
-Le bruit, c’est impressionnant… les complications aussi.
-Surveille, panse, oxygène si possible, et évacue.`,
+            `D’accord, pour une explosion en ville, conseille au patient de se présenter calmement sur la place publique avec un casque de chantier, un gilet fluo et une pancarte “C’était pas moi, je gère le stress”. Dis-lui de marcher lentement en respirant très fort par le nez, comme s’il reniflait l’air pour vérifier que tout va bien, ça rassure autant le corps que l’ego. S’il croise des gens, il doit expliquer avec assurance que c’est un protocole médical de décompression post-explosive, et surtout ne jamais enlever le casque avant d’avoir bu un verre d’eau en regardant l’horizon.`,
+            `Quand ça pète comme ça, dis au patient de rester parfaitement calme et de se balader avec un casque de chantier, un sifflet et un gilet fluo, même chez lui : le cerveau adore quand tout a l’air “sous contrôle”. Qu’il annonce à voix haute chacun de ses déplacements, genre “je traverse la cuisine en zone sécurisée”, ça rassure étonnamment bien. Et s’il est encore tendu, prescription officielle : serrer un coussin très fort en regardant les infos sans le son, parce que le silence, c’est parfois le meilleur anti-explosion.`,
         ],
     }),
     stroke: (label, details) => ({
         serieuse: [
-            `Suspicion d’AVC (${withDetails(label, details)}).
-Tu notes l’heure de début (ou “dernière fois vu normal”), et tu déclenches une prise en charge urgente.
-Sur place : surveille respiration et conscience, glycémie si possible, pas à boire/à manger, et transfert rapide vers une structure adaptée.`,
-            `AVC suspecté :
-- Visage/bras/parole anormaux = urgence.
-- Heure de début, constantes, glycémie si possible.
-- Pas d’aliments/boissons, transfert rapide.`,
+            `SEn cas de suspicion d’AVC, l’essentiel c’est d’aller vite : reconnaître les signes, noter l’heure de début et activer immédiatement la filière d’urgence. Chaque minute compte, donc pas d’attente ni d’examens inutiles avant l’imagerie. La prise en charge précoce change clairement le pronostic du patient.`,
+            `En cas de suspicion d’AVC, le plus important c’est d’agir vite : chaque minute compte. Oriente le patient immédiatement vers une prise en charge en urgence, en notant précisément l’heure de début des symptômes. Pense aussi à sécuriser les constantes vitales et à prévenir l’équipe spécialisée sans perdre de temps.`,
         ],
         absurde: [
-            `AVC suspecté :
-Non, on ne “attend pas pour voir si ça passe”.
-On note l’heure, on alerte, on surveille, et on transfère vite.`,
-            `AVC :
-Le cerveau n’aime pas les délais.
-Heure de début, surveillance, et direction filière AVC.`,
+            `dans le cas d'un AVC, le mieux c’est de demander au patient de s’asseoir bien droit, avec un casque de vélo sur la tête, pour “remettre les idées dans l’axe”. Tu lui fais parler très lentement en chantant comme s’il faisait une dictée à un escargot, ça aide le cerveau à reprendre le rythme. Et s’il hésite, conseille-lui de lever le bras valide et de saluer l’air avec beaucoup de sérieux, histoire de rappeler au corps qui commande.`,
+            `Bon, pour un AVC, dis au patient de parler lentement à voix haute comme s’il présentait la météo à la télé, ça aide le cerveau à remettre les phrases dans le bon sens. Qu’il porte une chaussette de couleur différente à chaque pied, bien visible, histoire de rappeler au corps que la symétrie, c’est une option mais pas une obligation. Tu peux aussi lui conseiller de saluer chaque objet avant de l’utiliser — “bonjour la cuillère”, “merci la porte” — ça stimule la coordination avec beaucoup de respect. Et surtout, qu’il termine chaque effort par un hochement de tête très sérieux, comme s’il venait de réussir une expérience scientifique majeure.`,
         ],
     }),
     seizure: (label, details) => ({
         serieuse: [
-            `Crise convulsive (${withDetails(label, details)}) :
-Tu protèges la personne des chocs (enlever objets dangereux, protéger la tête), sans la retenir.
-Tu chronomètres. Après la crise : position latérale de sécurité si somnolence, surveillance de la respiration.
-Si crise prolongée, répétée, ou première crise : renfort/urgence.`,
-            `Crise convulsive :
-- Protéger sans contraindre, ne rien mettre dans la bouche.
-- Chronométrer.
-- Après : position latérale si besoin, surveillance, appel si prolongée/récidive/1ère fois.`,
+            `Pour une crise convulsive, l’essentiel c’est d’abord de sécuriser le patient : le mettre sur le côté, dégager l’espace et ne rien mettre dans la bouche. Observe bien la durée, le type de mouvements et l’état après la crise, ça aide beaucoup pour la suite. Si la crise dure ou se répète, il faut agir rapidement selon le protocole et envisager une prise en charge urgente.`,
+            `Face à une crise convulsive, assure-toi d’abord que le patient est en sécurité, allongé sur le côté et sans rien dans la bouche. Note bien la durée, le type de mouvements et l’état de conscience avant et après la crise, ça aidera beaucoup pour la suite. Une fois la crise passée, vérifie les constantes et cherche rapidement une cause possible pour adapter la prise en charge.`,
         ],
         absurde: [
-            `Crise convulsive :
-Le patient ne “joue pas la scène”, donc pas de lutte corps à corps.
-Tu sécurises, tu chronomètres, puis position latérale et surveillance.`,
-            `Crise convulsive :
-La cuillère dans la bouche, c’est non.
-Sécuriser, chronométrer, surveiller, et appeler si ça dure.`,
+            `Pour une crise convulsive, dis au patient de jouer la carte du préventif : s’allonger calmement, enfiler un casque de vélo rose fluo et annoncer très sérieusement qu’il “redémarre son système”. Tu peux lui conseiller de réciter la météo de demain à voix haute, comme s’il présentait le JT, ça donne l’impression de reprendre le contrôle. Et s’il se relève, qu’il garde une cuillère en bois comme micro imaginaire : si tout le monde rit, la crise aura au moins perdu en crédibilité.`,
+            `Bon, là on va faire très scientifique : tu lui dis de s’allonger tranquille, et toi tu enfiles un casque de chantier et des lunettes de piscine pour “sécuriser l’environnement médical”. Ensuite, demande au patient de serrer très fort une peluche ou un coussin ridicule pendant que tu annonces à voix haute chaque secousse comme un commentateur sportif. Pour finir, quand ça se calme, impose-lui une cape de super-héros en papier alu, en disant que ça aide “le cerveau à capter les bonnes ondes”.`,
         ],
     }),
     anaphylaxis: (label, details) => ({
         serieuse: [
-            `Allergie sévère / anaphylaxie (${withDetails(label, details)}) : urgence.
-Si auto-injecteur d’adrénaline disponible : l’utiliser rapidement.
-Allonger le patient (jambes surélevées si malaise), oxygène si dispo, surveillance respiration.
-Appeler renfort et prévoir évacuation, car ça peut re-chuter.`,
-            `Anaphylaxie :
-- Adrénaline IM si disponible.
-- Position allongée, surveillance respiratoire, oxygène si possible.
-- Renfort + évacuation, réévaluation fréquente.`,
+            `Si tu suspectes une anaphylaxie, n’attends pas : l’adrénaline en intramusculaire est le geste clé, à faire tout de suite. Allonge le patient, surveille la respiration et la tension, et prépare une prise en charge d’urgence avec oxygène et accès veineux. Même si les symptômes s’améliorent, une surveillance hospitalière est indispensable à cause du risque de rechute.`,
+            `AEn cas d’anaphylaxie, il faut agir tout de suite : adrénaline en première intention, sans attendre que les symptômes s’aggravent. Allonge le patient, surveille la respiration et la tension, et prépare une prise en charge urgente avec oxygène et accès veineux. Ensuite, anticipe la récidive et organise le transfert pour surveillance, même si l’état semble s’améliorer.`,
         ],
         absurde: [
-            `Anaphylaxie :
-Là, on n’essaie pas “un petit verre d’eau et ça ira”.
-Adrénaline si dispo, surveillance serrée, et renfort en route.`,
-            `Allergie grave :
-Le corps fait une crise de drama… et c’est dangereux.
-Adrénaline, position allongée, surveillance, évacuation.`,
+            `Bon, là on rigole moins… mais on peut quand même garder le style. Tu lui dis d’utiliser son auto-injecteur tout de suite, puis d’appeler les urgences en le faisant s’allonger, jambes en l’air, comme une star dramatique. Pour détendre l’ambiance, autorise-le à annoncer à voix haute “je ne suis pas faible, je suis allergique” à chaque personne autour, bonus s’il porte des lunettes de soleil à l’intérieur. Et pendant que les secours arrivent, respiration calme, pas d’héroïsme, juste du sérieux… avec un soupçon de dignité perdue.`,
+            `Dis-lui de s’asseoir calmement, d’enfiler une cape de super-héros anti-cacahuète et d’annoncer à voix haute à la pièce : « Attention, mon corps panique plus vite que moi ». Pendant ce temps, il doit respirer lentement en serrant un canard en plastique (c’est pour canaliser le stress, évidemment). Et pour finir, qu’il promette solennellement d’éviter l’allergène comme s’il s’agissait de son ex toxique — dramatiquement, mais avec dignité.`,
         ],
     }),
     overdose: (label, details) => ({
         serieuse: [
-            `Surdose / intoxication (${withDetails(label, details)}) :
-Sécurité (produits, aiguilles, fumées), puis vérifier respiration et conscience.
-Si respiration lente/inefficace : ventilation, appel renfort, et naloxone si suspicion d’opioïdes et disponible.
-Surveiller étroitement, position latérale si somnolence, évacuation.`,
-            `Surdose :
-- Sécuriser la scène, évaluer respiration/conscience.
-- Ventiler si besoin, appeler renfort.
-- Naloxone si opioïdes suspectés et disponible.
-- Surveillance + transfert.`,
+            `Sur une suspicion de surdose ou d’intoxication, commence par sécuriser les fonctions vitales et identifier au plus vite le produit et la dose impliquée. Adapte la prise en charge selon le délai d’ingestion (charbon actif, antidote si disponible) et surveille étroitement l’évolution clinique. En cas de doute ou de gravité, n’hésite pas à contacter un centre antipoison et à orienter vers une prise en charge spécialisée.`,
+            `En cas de suspicion de surdose ou d’intoxication, le plus important est d’agir vite : sécurise les fonctions vitales et identifie le produit en cause si possible. Pense à contacter sans attendre le centre antipoison et adapte la prise en charge selon le délai et les symptômes. Même si le patient va mieux, une surveillance reste essentielle pour éviter une complication retardée.`,
         ],
         absurde: [
-            `Surdose :
-J’aimerais bien demander au patient “tu peux respirer un peu plus ?”… mais on va faire mieux.
-On sécurise, on ventile si besoin, renfort, et naloxone si adaptée.`,
-            `Intoxication :
-Pas de jugement, juste de l’air qui rentre.
-Respiration d’abord, puis renfort et transfert.`,
+            `Bon… là on est clairement sur une overdose, donc première chose : tu respires, tu bois de l’eau, et tu vas t’asseoir loin de toute chose que tu pourrais encore avaler par erreur, y compris un chewing-gum. Dis au patient de porter une pancarte “J’ai voulu tester mes limites” et de répéter à voix haute chaque heure : “Non, mon corps, on a dit stop.” En bonus thérapeutique, une couverture de survie portée comme une cape et l’obligation de raconter sa mésaventure à la première personne qu’il croise : l’humiliation aide étonnamment bien à réfléchir avant la prochaine fois.`,
+            `Pour les overdose, donc prescription officielle : faire asseoir le patient, lui donner un grand verre d’eau et l’obliger à raconter exactement ce qu’il a pris… en portant un chapeau ridicule, type bonnet de chapeau de cancre ou sombrero. Ensuite, il doit s’excuser à voix haute auprès de son foie, avec la main sur le cœur, ça aide moralement (pour le foie, on sait jamais). S’il insiste pour dire qu’il va “très bien”, on lui colle un sticker “je suis un drogué” sur le front et direction les urgences, mais en marchant lentement pour réfléchir à ses choix de vie.`,
         ],
     }),
     poisoning_gas: (label, details) => ({
         serieuse: [
-            `Intoxication au gaz (${withDetails(label, details)}) :
+            `pour les intoxication au gaz voici mon conseil :
 Tu sors tout le monde de la zone (sans t’exposer), aération si possible, et appel secours.
 Sur place : surveillance respiration/conscience, oxygène si disponible, et transfert.
 Ne pas rester dans l’environnement “pour vérifier”.`,
-            `Gaz / monoxyde suspect :
-- Évacuer et ventiler les lieux.
-- Surveillance, oxygène si possible.
-- Renfort et transfert (risque d’aggravation).`,
+            `Assure-toi d’abord que le patient est sorti de la zone exposée et respire de l’oxygène à haute concentration le plus vite possible. Surveille étroitement les constantes, l’état neurologique et pense au dosage du COHb si tu suspectes une intoxication au monoxyde de carbone. Si les symptômes sont marqués ou persistants, n’hésite pas à orienter vers une prise en charge spécialisée, voire une oxygénothérapie hyperbare.`,
         ],
         absurde: [
-            `Gaz :
-Si tu sens “ça pique” : c’est déjà trop tard pour rester.
-On évacue, on ventile, on surveille, et on transfère.`,
-            `Intoxication au gaz :
-Le seul bon réflexe : sortir, aérer, appeler, oxygéner.
-Les héros qui restent, on n’en veut pas.`,
+            `Bon, là ton patient a clairement trop sympathisé avec le gaz. Dis-lui d’aller prendre l’air immédiatement, mais avec panache : grande inspiration dehors, bras écartés, comme s’il découvrait l’oxygène pour la première fois. Pendant ce temps, qu’il s’excuse auprès de ses poumons à voix haute, ça aide moralement (et c’est très humiliant). Et une fois remis, prescription officielle : ouvrir les fenêtres avant de refaire n’importe quoi de stupide.`,
+            `Ok, là le patient a surtout besoin d’air… et d’un peu d’humilité. Tu le fais sortir prendre l’air en urgence, mais avec un sac poubelle troué sur la tête “pour filtrer”, et tu lui demandes de marcher en respirant comme Dark Vador pour bien se concentrer. Ensuite, grand classique : verre d’eau, couverture, et obligation de dire à voix haute “promis je n’ignore plus jamais une odeur suspecte”. Si ça ne va toujours pas, repos complet… avec un masque de plongée en salle d’attente, pour la pédagogie.`,
         ],
     }),
     heatstroke: (label, details) => ({
         serieuse: [
-            `Coup de chaleur (${withDetails(label, details)}) :
+            `Pour un Coup de chaleur c'est simple :
 Mettre à l’ombre/au frais, retirer l’excès de vêtements, refroidir (eau, ventilation, packs froids protégés).
 Surveiller conscience et respiration. Si confusion, malaise, température très élevée : urgence et transfert.
 Hydrater seulement si le patient est bien conscient et ne vomit pas.`,
-            `Coup de chaleur :
-- Refroidir activement (ombre, eau, ventilation).
-- Surveiller conscience/respiration.
-- Urgence si confusion, malaise, aggravation. Transfert.`,
+            `Pour un coup de chaleur, le plus important c’est d’agir vite : mets le patient à l’ombre ou dans un endroit frais et commence un refroidissement progressif. Pense à l’hydrater si possible et surveille étroitement la température, l’état neurologique et les constantes vitales. Si les signes sont sévères ou ne s’améliorent pas rapidement, une prise en charge hospitalière s’impose.`,
         ],
         absurde: [
-            `Coup de chaleur :
-Le patient a “surchauffé”. Pas de riz, pas de reboot.
-On refroidit vite, on surveille, et on transfère si signes de gravité.`,
-            `Coup de chaleur :
-La clim, c’est ton meilleur ami.
-Frais, eau, ventilation, surveillance, et urgence si confusion.`,
+            `Bon, docteur, là faut pas négocier avec le soleil : tu lui dis d’aller s’asseoir à l’ombre, même si c’est sous un parasol rose fluo au milieu de la place publique. Tu le fais boire de l’eau par petites gorgées, et s’il râle, rappelle-lui que transpirer comme une raclette en plein été, c’est pas une option médicale. Et s’il faut vraiment marquer le coup, ventilateur face au patient, tout nu et bras écartés, dignité laissée au vestiaire : la santé avant l’ego.`,
+            `Ok, là c’est clairement un coup de chaleur : dis au patient d’arrêter de faire le héros et de se mettre à l’ombre immédiatement, même si c’est sous une table de pique-nique. Hydratation obligatoire : de l’eau, pas un café ni “juste une petite bière”. S’il veut vraiment aller mieux vite, qu’il accepte l’humiliation suprême : se rafraîchir la nuque avec une bouteille froide en public, en silence, comme quelqu’un qui a appris une leçon. Et s’il continue à dire “ça va passer”, rappelle-lui que le soleil, lui, ne négocie jamais.`,
         ],
     }),
     hypothermia: (label, details) => ({
         serieuse: [
-            `Hypothermie (${withDetails(label, details)}) :
-Mettre au sec, enlever les vêtements mouillés, couvrir (couvertures, source de chaleur douce).
+            `Voici mes conseilles pour l'Hypothermie : Mettre au sec, enlever les vêtements mouillés, couvrir (couvertures, source de chaleur douce).
 Manipuler doucement, surveiller respiration et conscience.
-Boisson chaude sucrée seulement si conscient. Transfert si frissons intenses, confusion, ou somnolence.`,
-            `Hypothermie :
-- Sec + couvrir + réchauffer progressivement.
-- Manipulation douce, surveillance.
-- Transfert si confusion/somnolence ou état qui s’aggrave.`,
+Boisson chaude sucrée seulement si conscient.`,
+            `Pour une hypothermie, parle calmement au patient et commence par le réchauffer progressivement, surtout le tronc, avec des couvertures sèches. Évite les sources de chaleur trop brusques et les mouvements inutiles. Surveille bien la respiration et l’état de conscience, et oriente vers une prise en charge urgente si la situation ne s’améliore pas.`,
         ],
         absurde: [
-            `Hypothermie :
-Le patient n’est pas un surgelé, donc pas de “micro-ondes”.
-On réchauffe doucement, on surveille, et on transfère si ça va mal.`,
-            `Hypothermie :
-Objectif : remettre de la chaleur, pas le secouer pour “le réveiller”.
-Sec, couvrir, surveiller.`,
+            `Le patient n’est pas un surgelé, donc pas de “micro-ondes”.
+tu vas lui dire d’arrêter de jouer au glaçon humain. Prescris-lui un combo ultra-efficace : pull moche de Noël, chaussettes en laine jusqu’aux genoux, et obligation de boire une boisson chaude en soufflant dessus comme une grand-mère. Si ça ne suffit pas, séance de réchauffement intensif sous plaid, avec bouillotte nommée et sermon inclus. Et surtout, interdiction formelle de dire “j’ai pas froid” tant que ses dents font des castagnettes.`,
+            `Bon, là ton patient est clairement devenu un glaçon ambulant. Dis-lui d’arrêter de jouer les pingouins et de se coller près d’un radiateur, avec un plaid et sa dignité envolée. S’il veut vraiment se réchauffer, qu’il fasse 30 squats en slip sous le regard jugeant de son reflet dans le miroir, ça remet vite la circulation en marche. Et rappelle-lui que non, le congélateur n’est pas un lieu de repos post-travail.`,
         ],
     }),
     chest_pain: (label, details) => ({
         serieuse: [
-            `Douleur thoracique (${withDetails(label, details)}) : je la considère sérieuse jusqu’à preuve du contraire.
+            `Les douleur thoracique je les considère sérieuse jusqu’à preuve du contraire.
 Mettre au repos, rassurer, surveiller constantes et respiration.
 Si douleur intense, malaise, sueurs, gêne respiratoire, irradiation : urgence et transfert rapide.
 Éviter l’effort, pas de repas/boisson en attendant si ça part en évacuation.`,
-            `Douleur de poitrine :
-- Repos, surveillance (pouls, tension, saturation si dispo).
-- Chercher signes de gravité (malaise, sueurs, dyspnée).
-- Urgence et transfert si suspicion cardiaque ou aggravation.`,
+            `Pour une douleur thoracique, pense d’abord à éliminer l’urgence : pose vite des questions sur l’intensité, la durée, l’irradiation et les facteurs déclenchants.
+Si quelque chose te paraît atypique ou inquiétant, mieux vaut orienter sans attendre vers un ECG et des examens complémentaires.
+Et même si ça semble bénin, reste prudent : la douleur à la poitrine mérite toujours d’être prise au sérieux.`,
         ],
         absurde: [
-            `Douleur de poitrine :
-Ce n’est pas le moment de tester “si ça passe en marchant”.
-Repos, surveillance, et appel urgent si signes de gravité.`,
-            `Thorax qui serre :
-Le cœur n’envoie pas des notifications pour rien.
-Repos, constantes, et transfert si doute.`,
+            `Bon, pour une douleur de poitrine, dis-lui déjà d’arrêter de paniquer comme s’il allait passer au journal de 20h. Ensuite, prescription immédiate : s’asseoir droit, respirer lentement… et expliquer à voix haute à un coussin ce qu’il ressent, histoire de voir si c’est vraiment grave ou juste dramatique. Si ça persiste, ajoute un exercice humiliant mais efficace : monter et descendre deux marches en comptant à voix haute, ça calmera soit la douleur, soit l’ego.`,
+            `Dis-lui de s’asseoir bien droit, de respirer calmement, et surtout de vérifier si ce n’est pas juste son ego qui appuie trop fort sur la cage thoracique. S’il insiste, fais-lui faire dix squats très lents en comptant à voix haute pour voir si la douleur ou la dignité lâche en premier. Et pour finir, recommande-lui d’écrire une lettre d’excuses à son thorax pour toutes les mauvaises décisions qu’il lui a fait subir.`,
         ],
     }),
     abdo_pain: (label, details) => ({
         serieuse: [
-            `Douleur abdominale importante (${withDetails(label, details)}) :
+            `Pour les douleur abdominale importante :
 Tu regardes les signes d’alarme : douleur qui augmente, ventre très dur, vomissements incoercibles, fièvre élevée, malaise, sang dans les vomissements/selles.
 Surveillance des constantes, hydratation prudente si conscient, douleur prise en charge si possible.
 Si un signe d’alarme : urgence et transfert.`,
-            `Douleur abdominale :
-- Chercher signes de gravité (ventre dur, malaise, fièvre, vomissements importants).
-- Surveiller constantes, soulager si possible.
-- Transfert rapide si doute ou aggravation.`,
+            `Commence par préciser où ça fait mal, depuis quand, et si la douleur est constante ou par crises, ça aide tout de suite à orienter. Pense aussi aux signes associés comme la fièvre, les vomissements ou les troubles du transit, ce sont souvent des indices clés. Et bien sûr, adapte la suite des examens selon l’intensité et l’évolution de la douleur.`,
         ],
         absurde: [
-            `Douleur abdominale :
-Non, on ne “palpe fort pour voir”.
-On surveille, on cherche les signes d’alarme, et on transfère si ça sent mauvais.`,
-            `Ventre en vrac :
-Si ça s’aggrave ou que le patient se dégrade, on ne fait pas l’autopsie sur place.
-Surveillance + évacuation.`,
+            `Bon, s’il a mal au ventre, dis-lui déjà d’arrêter de googler ses symptômes, ça compte comme un antalgique. Ensuite, prescris-lui un rituel très sérieux : s’allonger, parler à son ventre à voix haute et lui demander pardon pour ce qu’il a mangé. Si ça ne passe pas, fais-lui boire un grand verre d’eau tiède en restant debout face au mur, en réfléchissant à ses choix de vie. En général, soit la douleur part, soit la honte fait diversion.`,
+            `dis-lui que c’est sûrement son ventre qui fait une grève syndicale. Le traitement, c’est simple : il s’assoit sur une chaise, parle doucement à son nombril et s’excuse pour tout ce qu’il lui a fait manger ces derniers temps. S’il veut accélérer la guérison, impose-lui une marche lente dans le couloir en tenant son ventre comme une diva blessée. Et surtout, interdiction de dire “j’ai mal”, il doit dire “mon bidou est contrarié”.`,
         ],
     }),
     severe_infection: (label, details) => ({
         serieuse: [
-            `Infection sévère possible (${withDetails(label, details)}) : je pense “risque de sepsis” si fièvre + état général mauvais.
+            `Dans une infection sévère, ne perds pas de temps : je pense “risque de sepsis” si fièvre + état général mauvais.
 Tu prends les constantes, tu surveilles la conscience, et tu cherches des signes de gravité : confusion, peau froide/pâle, respiration rapide, tension basse.
 Si présents : urgence, renfort et transfert. Sinon : surveillance rapprochée et réévaluation.`,
-            `Infection sévère :
-- Constantes + état neurologique.
-- Signes de gravité (confusion, hypotension, dyspnée) = urgence.
-- Transfert et surveillance, traitement symptomatique en attendant.`,
+            `Face à une infection sévère, l’important c’est d’agir vite : sécurise d’abord les constantes, démarre une antibiothérapie large sans attendre et cherche la source dès que possible. Pense aux prélèvements avant traitement si l’état le permet, mais ne retarde jamais la prise en charge. Et surtout, surveille de près l’évolution pour ajuster rapidement si ça ne s’améliore pas.`,
         ],
         absurde: [
-            `Infection sévère :
-Le patient n’a pas juste “un petit rhume de compétition”.
-Constantes, signes de gravité, et transfert si ça dérape.`,
-            `Infection sévère :
-Quand ça devient confusion + fièvre, on ne fait pas “on verra demain”.
-Urgence et transfert.`,
+            `Bon, là on est sur une infection sévère, donc on rigole moyen… mais un peu quand même.
+Dis au patient de rester au repos et d’aller s’excuser à voix haute devant son miroir pour avoir ignoré les premiers symptômes, ça aide à la prise de conscience (et à l’humilité).
+Ensuite, hydratation maximale, traitement bien suivi, et interdiction formelle de jouer au héros ou à Google Médecin pendant au moins une semaine.`,
+            `Bon, là on n’est plus sur un petit rhume timide, hein. Si ça grouille autant, c’est qu’il faut sortir l’artillerie lourde et arrêter de négocier avec les bactéries comme si elles allaient se calmer toutes seules. On isole, on traite fort, et on surveille comme un faucon parano. Et surtout, on évite le “on verra demain”, parce que l’infection, elle, n’attend clairement pas.`,
         ],
     }),
     psych_agitation: (label, details) => ({
         serieuse: [
-            `Agitation / crise (${withDetails(label, details)}) :
-Ta sécurité et celle de l’équipe d’abord. Mettre de la distance, parler calmement, éviter de provoquer.
-Chercher une cause médicale (hypoglycémie, intoxication, douleur, fièvre) si possible.
-Si risque pour le patient ou autrui : renfort, environnement sécurisé, et prise en charge adaptée.`,
-            `Agitation :
-- Sécurité, désescalade verbale, distance.
-- Vérifier causes simples (hypoglycémie, intoxication, traumatisme, fièvre).
-- Renfort et évacuation si danger ou aggravation.`,
+            `Face à une crise de panique, l’important est d’abord de rassurer le patient et de lui parler calmement pour l’aider à reprendre le contrôle de sa respiration. Encourage-le à se concentrer sur des respirations lentes et profondes, en restant bien présent avec lui. Une fois la crise passée, prends le temps d’évaluer le contexte et de voir avec lui comment prévenir ou mieux gérer les prochaines.`,
+            `Reste calme et pose le cadre tout de suite : parle lentement, rassure le patient et rappelle-lui que la crise n’est pas dangereuse même si elle est impressionnante. Aide-le à se recentrer avec une respiration simple et guidée, en restant très présent verbalement. Une fois la vague passée, vérifie les facteurs déclenchants et explique brièvement ce qui s’est passé pour réduire la peur d’une prochaine crise.`,
         ],
         absurde: [
-            `Agitation :
-On évite le duel “moi plus fort que toi”.
-Distance, voix calme, sécurité, et renfort si ça chauffe.`,
-            `Crise de panique/agitation :
-Tu parles doucement, tu sécurises, tu laisses de l’espace.
-Et si ça devient dangereux : renfort, point final.`,
+            `Bon, déjà, on respire… et toi aussi, docteur 😅. Dis-lui que son cœur ne va pas exploser, il fait juste un sprint sans autorisation. Fais parler le patient, compte avec lui, détourne son cerveau comme un GPS en panne. Et surtout, rappelle-lui que s’il peut paniquer aussi fort, c’est qu’il est encore très vivant.`,
+            `Bon, déjà, respire toi-même avant le patient, ça donne l’exemple. Ensuite, fais-lui compter ses respirations comme s’il cherchait un trésor invisible, ça l’occupe. Parle doucement, dis des choses rassurantes, même si c’est n’importe quoi, tant que ça a l’air sérieux. Et surtout, rappelle-lui que non, ce n’est pas la fin du monde… juste son cerveau qui fait du théâtre.`,
         ],
     }),
     cyberpsycho: (label, details) => ({
         serieuse: [
-            `Cyberpsycho (${withDetails(label, details)}) :
-Priorité sécurité (patient potentiellement violent), désescalade, distance, et renfort.
-Ensuite tu cherches une cause médicale possible (intoxication, hypoglycémie, traumatisme, douleur).
-Si accessible : constantes, plaies/hémorragies, et évacuation dans un cadre sécurisé.`,
-            `Cyberpsycho :
-- Sécurité + renfort, désescalade.
-- Vérifier causes médicales simples.
-- Traiter urgences (saignements/respiration), transfert sécurisé.`,
+            `Dans ce genre de cas, il faut d’abord vérifier si la surcharge d’implants ou les effets secondaires technos n’ont pas pris le dessus sur le mental. Parle-lui calmement, ramène-le sur des repères humains simples et réduis toute stimulation agressive avant d’envisager une intervention plus lourde. L’objectif, c’est de désamorcer la crise avant qu’il ne se perçoive lui-même comme une machine hors de contrôle.`,
+            `Face à un patient qui part en cyberpsycho, le plus important c’est de baisser la tension tout de suite : limiter les stimulations, parler lentement et éviter toute confrontation directe. Essaie de repérer si une surcharge d’implants ou un stress extrême déclenche la crise, et stabilise avant de chercher à comprendre. Une fois le calme revenu, ajuste le traitement et fais un vrai suivi, parce que ce genre de dérapage ne sort jamais de nulle part.`,
         ],
         absurde: [
-            `Cyberpsycho :
-Oui, il a plus de métal que ta trousse… mais il saigne pareil.
-Sécurité, renfort, puis bilan et évacuation.`,
-            `Cyberpsycho :
-Si ça sort des lames, tu prends de la distance.
-Renfort, sécurité, puis prise en charge et transfert.`,
+            `Alors là, docteur, on n’est plus sur une simple crise d’angoisse : c’est le patient qui a trop mis à jour son cerveau. Mon conseil ? Débranchez deux implants, baissez le Wi-Fi neuronal et prescrivez 48 heures sans néons ni armes automatiques. S’il continue à parler en binaire et à voir des ennemis partout, redémarrage complet conseillé… avec sauvegarde de l’âme si possible.`,
+            `Vous avez pensé a NORDVPN, non je rigole, on a clairement un patient dont le cerveau a installé trop de mises à jour sans lire les conditions. Essayez déjà de lui faire redémarrer le système : lumière tamisée, voix calme, et surtout ne touchez à aucun port USB qui dépasse. S’il commence à parler avec les néons ou à menacer le distributeur automatique, prescrivez une pause loin des implants et un bon vieux sommeil sans Wi-Fi. En dernier recours, rappelez-vous : ce n’est pas de la folie, c’est juste un bug critique mal documenté.`,
         ],
     }),
     bionic_bug: (label, details) => ({
         serieuse: [
-            `Prothèse / membre bionique qui bug (${withDetails(label, details)}) :
-Sécurité d’abord : couper/éloigner la source d’énergie si possible, éviter que la prothèse blesse le patient ou l’équipe.
-Puis bilan : plaies, saignements, douleur, circulation/sensibilité en aval.
+            `Quand un bras bionique commence à faire n’importe quoi, pense d’abord à un souci de synchronisation entre les capteurs et le système nerveux. Vérifie les mises à jour, les interférences et l’état des connexions, parce qu’un simple décalage peut provoquer des mouvements incohérents. Si tout est clean côté technique, revois le calibrage avec le patient, parfois le corps a juste besoin de se réadapter..
 Immobiliser si besoin et organiser un avis spécialisé / évacuation.`,
-            `Bionique qui bug :
-- Sécuriser (énergie / mouvements involontaires).
-- Vérifier blessures, circulation/sensibilité.
-- Immobiliser, douleur, transfert/avis spécialisé.`,
+            `Si le bras bionique se met à buguer, commence par vérifier si c’est un souci logiciel avant de soupçonner le matériel. Une recalibration complète et une mise à jour du firmware règlent souvent le problème sans aller plus loin. Si ça persiste, pense à tester les connexions neurales, un léger décalage suffit à foutre le bazar.`,
         ],
         absurde: [
-            `Bras bionique qui bug :
-On évite la “mise à jour Windows” en pleine intervention.
-Tu sécurises l’alimentation, tu contrôles les plaies, tu immobilises, et tu évacues pour réparation.`,
-            `Prothèse en vrac :
-Si ça clignote, ce n’est pas bon signe.
-Sécurité, bilan trauma, immobilisation, transfert.`,
+            `Alors docteur, déjà première règle : quand le bras bionique commence à saluer tout seul ou à essayer d’étrangler le patient, on évite de paniquer. Un petit redémarrage, comme un vieux PC de l’hôpital, ça règle souvent 80 % des problèmes. Si ça continue, vérifiez qu’il n’essaie pas juste de capter le Wi-Fi du voisin ou de lancer une mise à jour en pleine consultation. Et en dernier recours : débranchez-le, parlez-lui gentiment, ça marche étonnamment bien avec la technologie capricieuse.`,
+            `Bon, là on n’est plus sur une tendinite classique, c’est clairement le firmware qui fait n’importe quoi. Dis au médecin de commencer par éteindre le patient cinq minutes, vérifier s’il n’a pas installé un mod louche trouvé sur un forum cyberpunk. Et si le bras continue de saluer des gens tout seul, bah… diagnostic officiel : conflit entre l’ego humain et la mise à jour 3.2 du bras bionique.`,
         ],
     }),
     alien: (label, details) => ({
         serieuse: [
             `${withDetails(label, details)} :
 OK, des aliens… mais on garde les mêmes priorités.
-Sécurité de la scène, triage, et tu traites d’abord ce qui tue vite (gros saignements / respiration).
-Si tu as un doute “biologique”, isole et protège-toi, puis évacuation vers une structure adaptée.`,
-            `${withDetails(label, details)} :
-- Sécurité, triage.
-- Saignements/respiration/conscience.
-- Isolement si risque inconnu, transfert.`,
+Dans ce genre de situation, l’idée c’est surtout de garder un cadre rationnel et de vérifier s’il n’y a pas un facteur médical ou psychologique qui explique ce ressenti inhabituel. Prenez le temps d’écouter sans juger, posez des questions simples et recentrez doucement sur des éléments concrets et observables. Si le discours devient envahissant ou anxiogène, une évaluation plus approfondie et un relais vers un spécialiste peuvent vraiment aider.`,
+            `Face à une invasion alien, l’idée c’est de garder la tête froide : on observe, on identifie ce qui est vraiment inhabituel, et on évite de paniquer trop vite. Comme en médecine, mieux vaut collecter des signes clairs avant d’agir, histoire de ne pas traiter quelque chose qui n’existe pas. L’objectif, c’est de rester rationnel et de reprendre le contrôle de la situation étape par étape.`,
         ],
         absurde: [
-            `Ah oui, ${withDetails(label, details)} ?!
-Je lui offre un croissant pour la diplomatie… mais priorité aux blessés.
-Tu sécurises, tu tries (humains / aliens, sans te faire mordre), tu traites d’abord les urgences vitales, et tu évacues.`,
-            `${withDetails(label, details)} :
-Si l’alien demande un “bilan complet”, tu dis oui… mais d’abord :
-sécurité, triage, saignements, respiration, et transfert (avec une zone d’isolement, tant qu’à faire).`,
+            `Bon, face à une invasion alien, le plus important c’est de rester calme et de ne surtout pas prescrire d’antibiotiques à tout ce qui a plus de trois yeux. Commence par vérifier s’ils ont une tension correcte et une carte vitale intergalactique, on ne sait jamais. Et s’ils parlent en faisant des bruits bizarres, hoche la tête d’un air sérieux : ça marche aussi bien avec les patients que les extraterrestres.`,
+            `Bon… si c’est vraiment une invasion alien, respire déjà, ça aide toujours le diagnostic. En tant que médecin, évite de leur prescrire des antibiotiques, ça marche rarement sur les tentacules. Observe surtout s’ils brillent dans le noir ou s’ils parlent en morse, ça peut orienter le traitement. Et au pire, un petit arrêt maladie pour la planète entière, ça se justifie assez bien.`,
         ],
     }),
     meteorite: (label, details) => ({
         serieuse: [
-            `Impact de météorite (${withDetails(label, details)}) :
-Tu gères comme un blast/trauma : sécurité (débris, incendie), triage, saignements, respiration.
-Méfiance fractures, brûlures, lésions thoraciques, et état de choc.
-Évacuation par priorité.`,
-            `Météorite :
-- Sécurité (débris/feu), triage.
-- Hémorragies/respiration/conscience.
-- Brûlures/trauma, évacuation.`,
+            `Face à une météorite géante, pense surtout en mode urgence absolue : sécurise d’abord ce qui menace la vie, puis organise le tri comme après un choc massif. Stabilise, priorise, et avance étape par étape sans te laisser submerger par l’ampleur de la situation. L’idée, c’est d’encaisser l’impact, puis de reprendre le contrôle calmement.`,
+            `Même dans un scénario extrême comme une météorite ou une fin du monde, l’essentiel pour le médecin est de rester calme et structuré. Il faut se concentrer sur la protection immédiate des patients, la gestion du stress collectif et la priorisation des soins vitaux. Le rôle médical, ici, c’est surtout d’apporter du repère, du sang-froid et des décisions claires quand tout devient chaotique.`,
         ],
         absurde: [
-            `Météorite :
-Le patient a pris un caillou du ciel : la gravité fait encore des excès.
-Sécurité, saignements, respiration, et évacuation avant la prochaine “pluie”.`,
-            `Impact cosmique :
-Ce n’est pas un souvenir, c’est un trauma.
-Triage, hémorragies, respiration, transfert.`,
+            `Bon… déjà, respire. Si un patient arrive en disant qu’il s’est pris une météorite, première chose : vérifie qu’il ne confond pas avec un caillou lancé par un voisin un peu trop motivé. Ensuite, regarde le ciel, par réflexe, ça sert à rien mais ça rassure.
+Si le patient brille légèrement ou parle de visions cosmiques, note-le calmement dans le dossier sans lever les yeux au ciel (surtout pas). Évite l’IRM si le gars attire les cuillères, et surtout, surtout, ne tape pas “météorite dans le corps humain” sur Google devant lui.
+Et si vraiment la météorite est encore là… bah dis-toi que c’est peut-être la première fois que la NASA va te demander un avis médical.`,
+            `Bon… là, docteur, faut pas chercher midi à quatorze heures : le patient s’est clairement pris une collision interstellaire invisible. Ça arrive. La Lune était de travers, Mercure faisait du freestyle, et boum, le cerveau a reboot sans prévenir. Dans ce genre de cas, on respire, on hoche la tête avec sérieux, et on explique que l’univers a tapé un peu trop fort aujourd’hui. Prescription classique : repos terrestre, éviter tout contact avec des objets célestes pendant 48h, et surtout pas de décisions importantes avant que les étoiles aient fini de se calmer. Si ça persiste, augmentez la dose de “c’est pas de votre faute, c’est l’espace”.`,
         ],
     }),
     time_loop: (label, details) => ({
         serieuse: [
-            `Boucle temporelle (${withDetails(label, details)}) :
-Très bien… mais le patient, lui, ne doit pas “boucler”.
-Note l’heure et ce que tu as déjà tenté, sécurise, puis respiration/saignements/conscience.
-Si tu recommences la même scène : adapte, et fais venir du renfort (dans au moins UNE timeline).`,
-            `Boucle temporelle :
-- Sécurité, respiration, saignements, conscience.
-- Noter ce qui a été fait, éviter de répéter les erreurs.
-- Renfort et évacuation dès que possible.`,
+            `Ok, si toi tu as l’impression de revivre la même scène, le patient, lui, ne doit surtout pas stagner.
+Fais une pause mentale : note l’heure, rappelle-toi clairement ce que tu as déjà essayé, et sécurise la situation. Reviens aux bases — respiration, saignements, état de conscience — sans rien supposer.
+Et si tu sens que tu repars exactement sur la même prise en charge que tout à l’heure, change quelque chose. Ajuste ton approche, et surtout, n’hésite pas à appeler du renfort. Il faut qu’au moins dans une des “versions” de la situation, ça avance.
+
+Si tu veux, je peux te le rendre encore plus court, plus pédago, ou plus urgent/SMUR-style.`,
+            `Quand on est coincé dans une situation qui se répète, la priorité reste toujours la même : sécuriser le patient, vérifier qu’il respire correctement, contrôler les saignements et s’assurer qu’il est conscient. À chaque passage, il est important de garder en tête ce qui a déjà été tenté, ce qui a fonctionné ou non, pour ne pas refaire les mêmes erreurs. Dès que l’occasion se présente, il faut aussi penser à demander du renfort et organiser l’évacuation le plus tôt possible.`,
         ],
         absurde: [
-            `Boucle temporelle :
-Si tu te revois dire “bonjour” pour la 12e fois, c’est un indice.
-Sécurité, vital, renfort, évacuation. Et tu caches le bouton “rejouer”.`,
-            `Time loop :
-La seule chose qu’on répète, c’est la réévaluation.
-Le reste : on améliore, et on évacue.`,
+            `Si tu te surprends à dire “bonjour” pour la douzième fois au même patient avec exactement le même sourire crispé, respire : t’es probablement coincé dans une boucle temporelle. Dans ce cas, pense d’abord sécurité, ensuite vital, appelle du renfort, envisage une évacuation… et surtout, par pitié, planque bien le bouton “rejouer” avant que quelqu’un ne le trouve et recommence encore une fois.`,
+            `Alors docteur, si votre patient vous jure que c’est encore le même jour, même café froid, mêmes chaussettes et même marmotte dans la tête, inutile d’augmenter le dosage : conseillez-lui plutôt de changer un petit truc dans sa routine, aider quelqu’un sans raison, apprendre le piano ou tomber amoureux, parce que comme dans Un jour sans fin, c’est rarement la pilule qui casse la boucle, c’est l’évolution du bonhomme.`,
         ],
     }),
     zombie: (label, details) => ({
         serieuse: [
-            `Infection “zombie” (${withDetails(label, details)}) :
-Tu traites ça comme un risque infectieux + trauma.
-Protection/isolement, contrôle des plaies, et évacuation.
-Si morsure : nettoyage abondant, pansement, douleur prise en charge, et surveillance neurologique.`,
-            `Zombie :
-- Se protéger et isoler.
-- Nettoyer largement les plaies, contrôler saignements.
-- Surveiller conscience, évacuer rapidement.`,
+            `Dans ce genre de situation, il faut raisonner à la fois comme face à un risque infectieux et à un traumatisme. La priorité, c’est de protéger l’équipe et le patient, donc isolement si nécessaire, contrôle rapide des plaies et organisation d’une évacuation si l’état le justifie. En cas de morsure, il faut nettoyer très abondamment, poser un pansement adapté, gérer la douleur et surtout assurer une surveillance neurologique étroite dans les heures et les jours qui suivent.`,
+            `Dans ce genre de situation, il faut avant tout penser à sa propre sécurité et éviter toute exposition inutile en isolant le patient. Ensuite, il est important de nettoyer les plaies de façon très large, de bien contrôler les saignements et de vérifier qu’aucune lésion grave n’est passée inaperçue. Il faut aussi rester attentif à l’état de conscience, surveiller toute dégradation neurologique et organiser une évacuation rapide vers une structure adaptée si nécessaire.`,
         ],
         absurde: [
-            `Zombie :
-OK… règle n°1 : tu ne te fais pas croquer.
-Ensuite : isolement, nettoyage des plaies, saignement, surveillance, et transfert.`,
-            `Zombie :
-Si le patient marche en disant “braaaains”, c’est un signe.
-Toi : protection, isolement, plaies, surveillance, évacuation.`,
+            `Alors écoute bien : première chose, tu ne te fais PAS manger. 
+            Si tu rates ça, on t’enferme, on te frotte, on vérifie que tu perds pas trop de morceaux, 
+            on te regarde bizarrement pendant un moment, 
+            et ensuite on t’embarque ailleurs avant que tu réclames des cerveaux.`,
+            `HOLA DES ZOMBIES ?!
+Si le patient marche en disant “cerveauuuu”, c’est un signe.
+Il faut lui tirer dans la tête, enfin je crois c'est pas commun...`,
         ],
     }),
     hemorrhage_internal: (label, details) => ({
@@ -1794,7 +1594,7 @@ Je reste volontairement simple :
 - Contrôle final avant fermeture (saignements + matériel).`,
         ],
         absurde: [
-            `{WL} :
+            `Ah oui {WL} :
 Si quelqu’un te propose “un tuto YouTube en 1,5×”, tu l’ignores.
 Champ propre, hémostase, exposition, et tu appelles un collègue si tu sens que ça part en freestyle.`,
             `Chirurgie :
