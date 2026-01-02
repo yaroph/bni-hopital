@@ -369,7 +369,8 @@ body{ overflow:hidden; }
   /* Dark bluish glass */
   background: rgba(10, 18, 32, 0.58);
   border: 1px solid rgba(150, 200, 255, 0.18);
-  box-shadow: 0 28px 110px rgba(0,0,0,0.55);
+  /* Retire l'ombre derrière la chatbox (même si .glass en ajoute une) */
+  box-shadow: none !important;
   backdrop-filter: blur(18px) saturate(140%);
   -webkit-backdrop-filter: blur(18px) saturate(140%);
   border-radius: 22px 0 0 22px;
@@ -405,12 +406,12 @@ body{ overflow:hidden; }
   transform-origin: right center;
   /* Tilt sans déplacer la box hors de l'écran */
   transform: perspective(1200px) rotateY(-8deg) rotateX(1deg) translateZ(0);
-  transition: transform .25s ease, box-shadow .25s ease;
+  transition: transform .25s ease;
 }
 
 .chatbox-tilt:hover{
   transform: perspective(1200px) rotateY(-5deg) rotateX(0.4deg) translateY(-2px) translateZ(0);
-  box-shadow: 0 34px 140px rgba(0,0,0,0.62);
+  box-shadow: none;
 }
 
 /* Le chat vit dans la chatbox */
