@@ -4862,7 +4862,7 @@ async function askVisualDataQuestion(patientId, patientName, after){
  brightCb.addEventListener("change", () => {
   fixBrightness = !!brightCb.checked;
   // Prévisualisation
-  preview.style.filter = fixBrightness ? "brightness(3)" : "";
+  preview.style.filter = fixBrightness ? "brightness(5)" : "";
  });
 
  const actions = document.createElement("div");
@@ -5059,9 +5059,9 @@ async function askVisualDataQuestion(patientId, patientName, after){
    const imageData = ctx.getImageData(0, 0, outW, outH);
    const d = imageData.data;
    for(let i = 0; i < d.length; i += 4){
-    d[i] = Math.min(255, d[i] * 3);
-    d[i + 1] = Math.min(255, d[i + 1] * 3);
-    d[i + 2] = Math.min(255, d[i + 2] * 3);
+    d[i] = Math.min(255, d[i] * 5);
+    d[i + 1] = Math.min(255, d[i + 1] * 5);
+    d[i + 2] = Math.min(255, d[i + 2] * 5);
     // alpha (d[i+3]) inchangé
    }
    ctx.putImageData(imageData, 0, 0);
