@@ -4848,6 +4848,23 @@ async function askVisualDataQuestion(patientId, patientName, after){
  hint.className = "mini-menu-text";
  hint.textContent = "Recadrez la photo : cadre vertical 300×500. Vous pouvez le déplacer et le redimensionner.";
 
+ // Option: fixer la luminosité (+300%)
+ let fixBrightness = false;
+ const brightRow = document.createElement("label");
+ brightRow.className = "crop-option";
+ const brightCb = document.createElement("input");
+ brightCb.type = "checkbox";
+ brightCb.className = "crop-option-checkbox";
+ const brightTxt = document.createElement("span");
+ brightTxt.textContent = "Fix la luminosité (+300%)";
+ brightRow.appendChild(brightCb);
+ brightRow.appendChild(brightTxt);
+ brightCb.addEventListener("change", () => {
+  fixBrightness = !!brightCb.checked;
+  // Prévisualisation
+  preview.style.filter = fixBrightness ? "brightness(3)" : "";
+ });
+
  const actions = document.createElement("div");
  actions.className = "buttons";
 
@@ -4859,6 +4876,7 @@ async function askVisualDataQuestion(patientId, patientName, after){
 
  menuEl.appendChild(stage);
  menuEl.appendChild(hint);
+ menuEl.appendChild(brightRow);
  menuEl.appendChild(actions);
  bubble.appendChild(menuEl);
  chatEl.scrollTop = chatEl.scrollHeight;
@@ -5034,6 +5052,23 @@ async function askVisualDataQuestion(patientId, patientName, after){
  ctx.fillStyle = "#fff";
  ctx.fillRect(0, 0, outW, outH);
  ctx.drawImage(img, sx, sy, sw, sh, 0, 0, outW, outH);
+
+ // Luminosité x3 (300%) si l'option est cochée
+ if(fixBrightness){
+  try{
+   const imageData = ctx.getImageData(0, 0, outW, outH);
+   const d = imageData.data;
+   for(let i = 0; i < d.length; i += 4){
+    d[i] = Math.min(255, d[i] * 3);
+    d[i + 1] = Math.min(255, d[i + 1] * 3);
+    d[i + 2] = Math.min(255, d[i + 2] * 3);
+    // alpha (d[i+3]) inchangé
+   }
+   ctx.putImageData(imageData, 0, 0);
+  }catch(_){
+   // Fallback: si getImageData est bloqué (CORS), on ne casse pas l'upload.
+  }
+ }
 
  // JPEG léger
  return canvas.toDataURL("image/jpeg", 0.88);
