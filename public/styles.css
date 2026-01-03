@@ -589,6 +589,23 @@ html, body { background: transparent !important; }
   line-height: 1.35;
   margin-bottom: 8px;
 }
+
+/* Option checkbox (crop) */
+.crop-option{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: -2px 0 10px;
+  font-size: 12px;
+  color: rgba(255,255,255,0.80);
+  user-select: none;
+  cursor: pointer;
+}
+.crop-option-checkbox{
+  width: 14px;
+  height: 14px;
+  accent-color: rgba(95,170,255,0.95);
+}
 .paste-zone{
   border-radius: 12px;
   border: 1px dashed rgba(255,255,255,0.18);
