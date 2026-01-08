@@ -852,6 +852,14 @@ html, body { background: transparent !important; }
   border: 1px solid rgba(255,255,255,0.14);
   outline: none;
 }
+
+/* Le menu déroulant natif (options) est souvent rendu sur fond blanc :
+   forcer un texte noir pour éviter "blanc sur blanc". */
+.auth-input option,
+.auth-input optgroup{
+  color: #000;
+  background: #fff;
+}
 .auth-input:focus{
   border-color: rgba(0,220,130,0.45);
   box-shadow: 0 0 0 3px rgba(0,220,130,0.12);
